@@ -31,7 +31,11 @@
     "color": {
       "field": "Death_cause",
       "type": "nominal",
-      "legend": {"title": "Death Cause", "orient": "left"}
+      "legend": {
+        "title": "Death Cause", 
+        "orient": "left",
+        "labelLimit": 0  
+      }
     },
     "tooltip": [
       {"field": "Death_cause", "type": "nominal", "title": "Death Cause"},
