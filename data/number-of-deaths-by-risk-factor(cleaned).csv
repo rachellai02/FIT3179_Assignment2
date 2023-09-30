@@ -1,29 +1,141 @@
-Death_cause,2015,2016,2017,2018,2019
-High systolic blood pressure,9999740,10190860,10351721,10589176,10845595
-Diet high in sodium,1753289,1785455,1811392,1842750,1885356
-Diet low in whole grains,1702413,1730299,1758037,1802323,1844836
-Alcohol use,2304269,2332374,2355672,2393321,2441974
-Diet low in fruits,983682,996499,1008138,1027421,1046015
-Unsafe water source,1363038,1327637,1319414,1270273,1230154
-Secondhand smoke,1209811,1226823,1243584,1272137,1304318
-Low birth weight,2006532,1917526,1833254,1762714,1703121
-Child wasting,1244798,1180723,1126051,1050292,993046
-Unsafe sex,1088992,1073126,1041873,1002773,984366
-Diet low in nuts and seeds,551259,556367,561010,569905,575139
-Household air pollution from solid fuels,2584720,2528244,2474179,2406292,2313991
-Diet low in vegetables,493268,501312,508659,519594,529381
-Smoking,7277057,7359293,7427968,7551950,7693368
-High fasting plasma glucose,5782271,5897121,6001405,6221344,6501398
-Air pollution,6638068,6605031,6564255,6605560,6671740
-Obesity,4423171,4563132,4683248,4841925,5019360
-Unsafe sanitation,908873,871473,851326,800857,756585
-Drug use,452151,465396,472656,481976,494492
-Low bone mineral density,395857,405813,414524,426726,437884
-Vitamin A deficiency,34267,30436,28133,26127,23850
-Child stunting,225278,208614,195112,178086,164237
-Non-exclusive breastfeeding,181113,169678,160458,148105,139732
-Iron deficiency,45726,44486,43314,42953,42349
-Ambient particulate matter pollution,3870691,3875979,3882444,3987349,4140971
-Low physical activity,749003,770864,798187,817081,831502
-No access to handwashing facility,699665,681616,670170,647002,627919
-High ldl cholesterol,4063587,4127272,4188135,4292468,4396984
+Year,Death_cause,Number_of_deaths,Rank
+2015,High systolic blood pressure,9999740,1
+2015,Diet high in sodium,1753289,11
+2015,Diet low in whole grains,1702413,12
+2015,Alcohol use,2304269,9
+2015,Diet low in fruits,983682,17
+2015,Unsafe water source,1363038,13
+2015,Secondhand smoke,1209811,15
+2015,Low birth weight,2006532,10
+2015,Child wasting,1244798,14
+2015,Unsafe sex,1088992,16
+2015,Diet low in nuts and seeds,551259,21
+2015,Household air pollution from solid fuels,2584720,8
+2015,Diet low in vegetables,493268,22
+2015,Smoking,7277057,2
+2015,High fasting plasma glucose,5782271,4
+2015,Air pollution,6638068,3
+2015,Obesity,4423171,5
+2015,Unsafe sanitation,908873,18
+2015,Drug use,452151,23
+2015,Low bone mineral density,395857,24
+2015,Vitamin A deficiency,34267,28
+2015,Child stunting,225278,25
+2015,Non-exclusive breastfeeding,181113,26
+2015,Iron deficiency,45726,27
+2015,Ambient particulate matter pollution,3870691,7
+2015,Low physical activity,749003,19
+2015,No access to handwashing facility,699665,20
+2015,High ldl cholesterol,4063587,6
+2016,High systolic blood pressure,10190860,1
+2016,Diet high in sodium,1785455,11
+2016,Diet low in whole grains,1730299,12
+2016,Alcohol use,2332374,9
+2016,Diet low in fruits,996499,17
+2016,Unsafe water source,1327637,13
+2016,Secondhand smoke,1226823,14
+2016,Low birth weight,1917526,10
+2016,Child wasting,1180723,15
+2016,Unsafe sex,1073126,16
+2016,Diet low in nuts and seeds,556367,21
+2016,Household air pollution from solid fuels,2528244,8
+2016,Diet low in vegetables,501312,22
+2016,Smoking,7359293,2
+2016,High fasting plasma glucose,5897121,4
+2016,Air pollution,6605031,3
+2016,Obesity,4563132,5
+2016,Unsafe sanitation,871473,18
+2016,Drug use,465396,23
+2016,Low bone mineral density,405813,24
+2016,Vitamin A deficiency,30436,28
+2016,Child stunting,208614,25
+2016,Non-exclusive breastfeeding,169678,26
+2016,Iron deficiency,44486,27
+2016,Ambient particulate matter pollution,3875979,7
+2016,Low physical activity,770864,19
+2016,No access to handwashing facility,681616,20
+2016,High ldl cholesterol,4127272,6
+2017,High systolic blood pressure,10351721,1
+2017,Diet high in sodium,1811392,11
+2017,Diet low in whole grains,1758037,12
+2017,Alcohol use,2355672,9
+2017,Diet low in fruits,1008138,17
+2017,Unsafe water source,1319414,13
+2017,Secondhand smoke,1243584,14
+2017,Low birth weight,1833254,10
+2017,Child wasting,1126051,15
+2017,Unsafe sex,1041873,16
+2017,Diet low in nuts and seeds,561010,21
+2017,Household air pollution from solid fuels,2474179,8
+2017,Diet low in vegetables,508659,22
+2017,Smoking,7427968,2
+2017,High fasting plasma glucose,6001405,4
+2017,Air pollution,6564255,3
+2017,Obesity,4683248,5
+2017,Unsafe sanitation,851326,18
+2017,Drug use,472656,23
+2017,Low bone mineral density,414524,24
+2017,Vitamin A deficiency,28133,28
+2017,Child stunting,195112,25
+2017,Non-exclusive breastfeeding,160458,26
+2017,Iron deficiency,43314,27
+2017,Ambient particulate matter pollution,3882444,7
+2017,Low physical activity,798187,19
+2017,No access to handwashing facility,670170,20
+2017,High ldl cholesterol,4188135,6
+2018,High systolic blood pressure,10589176,1
+2018,Diet high in sodium,1842750,10
+2018,Diet low in whole grains,1802323,11
+2018,Alcohol use,2393321,9
+2018,Diet low in fruits,1027421,16
+2018,Unsafe water source,1270273,14
+2018,Secondhand smoke,1272137,13
+2018,Low birth weight,1762714,12
+2018,Child wasting,1050292,15
+2018,Unsafe sex,1002773,17
+2018,Diet low in nuts and seeds,569905,21
+2018,Household air pollution from solid fuels,2406292,8
+2018,Diet low in vegetables,519594,22
+2018,Smoking,7551950,2
+2018,High fasting plasma glucose,6221344,4
+2018,Air pollution,6605560,3
+2018,Obesity,4841925,5
+2018,Unsafe sanitation,800857,19
+2018,Drug use,481976,23
+2018,Low bone mineral density,426726,24
+2018,Vitamin A deficiency,26127,28
+2018,Child stunting,178086,25
+2018,Non-exclusive breastfeeding,148105,26
+2018,Iron deficiency,42953,27
+2018,Ambient particulate matter pollution,3987349,7
+2018,Low physical activity,817081,18
+2018,No access to handwashing facility,647002,20
+2018,High ldl cholesterol,4292468,6
+2019,High systolic blood pressure,10845595,1
+2019,Diet high in sodium,1885356,10
+2019,Diet low in whole grains,1844836,11
+2019,Alcohol use,2441974,8
+2019,Diet low in fruits,1046015,15
+2019,Unsafe water source,1230154,14
+2019,Secondhand smoke,1304318,13
+2019,Low birth weight,1703121,12
+2019,Child wasting,993046,16
+2019,Unsafe sex,984366,17
+2019,Diet low in nuts and seeds,575139,21
+2019,Household air pollution from solid fuels,2313991,9
+2019,Diet low in vegetables,529381,22
+2019,Smoking,7693368,2
+2019,High fasting plasma glucose,6501398,4
+2019,Air pollution,6671740,3
+2019,Obesity,5019360,5
+2019,Unsafe sanitation,756585,19
+2019,Drug use,494492,23
+2019,Low bone mineral density,437884,24
+2019,Vitamin A deficiency,23850,28
+2019,Child stunting,164237,25
+2019,Non-exclusive breastfeeding,139732,26
+2019,Iron deficiency,42349,27
+2019,Ambient particulate matter pollution,4140971,7
+2019,Low physical activity,831502,18
+2019,No access to handwashing facility,627919,20
+2019,High ldl cholesterol,4396984,6
