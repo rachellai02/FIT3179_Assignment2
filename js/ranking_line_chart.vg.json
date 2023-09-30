@@ -1,46 +1,43 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": {
-      "text": "World Cup 2018: Group F Rankings",
-      "frame": "bounds"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Ranking of Death Causes (2015 - 2016)",
+    "frame": "bounds"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/number-of-deaths-by-risk-factor(cleaned).csv",
+    "format": {"type": "csv"}
+  },
+  "transform": [{
+    "filter": "datum.Rank <= 10"
+  }],
+  "width": 300,
+  "height": 300,
+  "mark": {"type": "line", "point": true},
+  "encoding": {
+    "x": {"field": "Year", "type": "ordinal", "axis": {"labelAngle": 0}},
+    "y": {
+      "field": "Rank", 
+      "type": "quantitative", 
+      "axis": {
+        "title": "Rank",
+        "orient": "left",
+        "format": "d",
+        "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "tickCount": 10
+      },
+      "sort": "descending"
     },
-    "data": {
-      "values": [
-        {"team": "Germany", "matchday": 1, "point": 0, "diff": -1},
-        {"team": "Mexico", "matchday": 1, "point": 3, "diff": 1},
-        {"team": "South Korea", "matchday": 1, "point": 0, "diff": -1},
-        {"team": "Sweden", "matchday": 1, "point": 3, "diff": 1},
-        {"team": "Germany", "matchday": 2, "point": 3, "diff": 0},
-        {"team": "Mexico", "matchday": 2, "point": 6, "diff": 2},
-        {"team": "South Korea", "matchday": 2, "point": 0, "diff": -2},
-        {"team": "Sweden", "matchday": 2, "point": 3, "diff": 0},
-        {"team": "Germany", "matchday": 3, "point": 3, "diff": -2},
-        {"team": "Mexico", "matchday": 3, "point": 6, "diff": -1},
-        {"team": "South Korea", "matchday": 3, "point": 3, "diff": 0},
-        {"team": "Sweden", "matchday": 3, "point": 6, "diff": 3}
-      ]
+    "color": {
+      "field": "Death_cause",
+      "type": "nominal",
+      "legend": {"title": "Death Cause", "orient": "left"}
     },
-    "transform": [{
-      "sort": [
-        {"field": "point", "order": "descending"},
-        {"field": "diff", "order": "descending"}
-      ],
-      "window": [{
-        "op": "rank",
-        "as": "rank"
-      }],
-      "groupby": ["matchday"]
-    }],
-    "mark": {"type": "line", "orient": "vertical"},
-    "encoding": {
-      "x": {"field": "matchday", "type": "ordinal"},
-      "y": {"field": "rank", "type": "ordinal"},
-      "color": {
-        "field": "team", "type": "nominal",
-        "scale": {
-          "domain": ["Germany", "Mexico", "South Korea", "Sweden"],
-          "range": ["black", "#127153", "#C91A3C", "#0C71AB"]
-        }
-      }
-    }
+    "tooltip": [
+      {"field": "Death_cause", "type": "nominal", "title": "Death Cause"},
+      {"field": "Number_of_deaths", "type": "quantitative", "title": "Number of Deaths"},
+      {"field": "Year", "type": "ordinal", "title": "Year"},
+      {"field": "Rank", "type": "quantitative", "title": "Rank"}
+    ]
   }
+}
