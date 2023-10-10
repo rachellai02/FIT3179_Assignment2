@@ -42,7 +42,7 @@ body * {
 	justify-content: center; /* Center aligns flex items on the main axis */
 	display: flex; /* Ensures it's a flex container */
 	flex-wrap: wrap; /* Allows for wrapping if necessary */
-  margin: 0 auto;
+  	margin: 0 auto;
   }
 
   .section {

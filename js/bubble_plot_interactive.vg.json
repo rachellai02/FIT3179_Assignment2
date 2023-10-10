@@ -44,14 +44,14 @@
       }
     },
     {
-      "name": "Year_selection",
+      "name": "Year",
       "value": 2010,
       "bind": {
         "input": "range",
         "min": 2010,
         "max": 2014,
         "step": 1,
-        "name": "Year Selection: "
+        "name": "Year: "
       }
     }
   ],
@@ -63,7 +63,7 @@
       "filter": "datum.Population >= Population_Above"
     },
     {
-      "filter": "Year_selection == null || datum.Year == Year_selection"
+      "filter": "Year == null || datum.Year == Year"
     }
   ],
   "encoding": {
