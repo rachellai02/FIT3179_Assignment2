@@ -1,0 +1,30 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 150, 
+    "height": 150, 
+    "data": {
+      "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/continent-share-of-overweight-obese-others.csv"
+    },
+    "transform": [
+      {"filter": "datum.Continent === 'Oceania'"}
+    ],
+    "mark": {"type": "arc", "innerRadius": 50, "stroke": "#fff"},
+    "encoding": {
+      "theta": {"field": "Percentage", "type": "quantitative"},
+      "color": {
+        "field": "Status",
+        "type": "nominal",
+        "scale": {"range": ["red", "gray", "orange"]},
+        "legend": null
+      },
+      "tooltip": [
+        {"field": "Status", "type": "nominal", "title": "Status"},
+        {"field": "Percentage", "type": "quantitative", "title": "Percentage"}
+      ]
+    },
+    "title": "Oceania",
+    "resolve": {
+      "legend": {"color": "independent"}
+    }
+  }
+  

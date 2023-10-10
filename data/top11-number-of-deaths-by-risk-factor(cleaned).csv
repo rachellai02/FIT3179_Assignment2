@@ -1,56 +1,56 @@
-Year,Death_cause,Number_of_deaths,Rank
-2015,High Systolic Blood Pressure,9999740,1
-2015,Diet High In Sodium,1753289,11
-2015,Alcohol Use,2304269,9
-2015,Low Birth Weight,2006532,10
-2015,Household Air Pollution From Solid Fuels,2584720,8
-2015,Smoking,7277057,2
-2015,High Fasting Plasma Glucose,5782271,4
-2015,Air Pollution,6638068,3
-2015,Obesity,4423171,5
-2015,Ambient Particulate Matter Pollution,3870691,7
-2015,High Ldl Cholesterol,4063587,6
-2016,High Systolic Blood Pressure,10190860,1
-2016,Diet High In Sodium,1785455,11
-2016,Alcohol Use,2332374,9
-2016,Low Birth Weight,1917526,10
-2016,Household Air Pollution From Solid Fuels,2528244,8
-2016,Smoking,7359293,2
-2016,High Fasting Plasma Glucose,5897121,4
-2016,Air Pollution,6605031,3
-2016,Obesity,4563132,5
-2016,Ambient Particulate Matter Pollution,3875979,7
-2016,High Ldl Cholesterol,4127272,6
-2017,High Systolic Blood Pressure,10351721,1
-2017,Diet High In Sodium,1811392,11
-2017,Alcohol Use,2355672,9
-2017,Low Birth Weight,1833254,10
-2017,Household Air Pollution From Solid Fuels,2474179,8
-2017,Smoking,7427968,2
-2017,High Fasting Plasma Glucose,6001405,4
-2017,Air Pollution,6564255,3
-2017,Obesity,4683248,5
-2017,Ambient Particulate Matter Pollution,3882444,7
-2017,High Ldl Cholesterol,4188135,6
-2018,High Systolic Blood Pressure,10589176,1
-2018,Diet High In Sodium,1842750,10
-2018,Alcohol Use,2393321,9
-2018,Low Birth Weight,1762714,12
-2018,Household Air Pollution From Solid Fuels,2406292,8
-2018,Smoking,7551950,2
-2018,High Fasting Plasma Glucose,6221344,4
-2018,Air Pollution,6605560,3
-2018,Obesity,4841925,5
-2018,Ambient Particulate Matter Pollution,3987349,7
-2018,High Ldl Cholesterol,4292468,6
-2019,High Systolic Blood Pressure,10845595,1
-2019,Diet High In Sodium,1885356,10
-2019,Alcohol Use,2441974,8
-2019,Low Birth Weight,1703121,12
-2019,Household Air Pollution From Solid Fuels,2313991,9
-2019,Smoking,7693368,2
-2019,High Fasting Plasma Glucose,6501398,4
-2019,Air Pollution,6671740,3
-2019,Obesity,5019360,5
-2019,Ambient Particulate Matter Pollution,4140971,7
-2019,High Ldl Cholesterol,4396984,6
+Year,Death_cause,Number_of_deaths,Number_of_deaths (Million),Rank
+2015,High Systolic Blood Pressure,9999740,9.99974,1
+2015,Diet High In Sodium,1753289,1.753289,11
+2015,Alcohol Use,2304269,2.304269,9
+2015,Low Birth Weight,2006532,2.006532,10
+2015,Household Air Pollution From Solid Fuels,2584720,2.58472,8
+2015,Smoking,7277057,7.277057,2
+2015,High Fasting Plasma Glucose,5782271,5.782271,4
+2015,Air Pollution,6638068,6.638068,3
+2015,Obesity,4423171,4.423171,5
+2015,Ambient Particulate Matter Pollution,3870691,3.870691,7
+2015,High Ldl Cholesterol,4063587,4.063587,6
+2016,High Systolic Blood Pressure,10190860,10.19086,1
+2016,Diet High In Sodium,1785455,1.785455,11
+2016,Alcohol Use,2332374,2.332374,9
+2016,Low Birth Weight,1917526,1.917526,10
+2016,Household Air Pollution From Solid Fuels,2528244,2.528244,8
+2016,Smoking,7359293,7.359293,2
+2016,High Fasting Plasma Glucose,5897121,5.897121,4
+2016,Air Pollution,6605031,6.605031,3
+2016,Obesity,4563132,4.563132,5
+2016,Ambient Particulate Matter Pollution,3875979,3.875979,7
+2016,High Ldl Cholesterol,4127272,4.127272,6
+2017,High Systolic Blood Pressure,10351721,10.351721,1
+2017,Diet High In Sodium,1811392,1.811392,11
+2017,Alcohol Use,2355672,2.355672,9
+2017,Low Birth Weight,1833254,1.833254,10
+2017,Household Air Pollution From Solid Fuels,2474179,2.474179,8
+2017,Smoking,7427968,7.427968,2
+2017,High Fasting Plasma Glucose,6001405,6.001405,4
+2017,Air Pollution,6564255,6.564255,3
+2017,Obesity,4683248,4.683248,5
+2017,Ambient Particulate Matter Pollution,3882444,3.882444,7
+2017,High Ldl Cholesterol,4188135,4.188135,6
+2018,High Systolic Blood Pressure,10589176,10.589176,1
+2018,Diet High In Sodium,1842750,1.84275,10
+2018,Alcohol Use,2393321,2.393321,9
+2018,Low Birth Weight,1762714,1.762714,12
+2018,Household Air Pollution From Solid Fuels,2406292,2.406292,8
+2018,Smoking,7551950,7.55195,2
+2018,High Fasting Plasma Glucose,6221344,6.221344,4
+2018,Air Pollution,6605560,6.60556,3
+2018,Obesity,4841925,4.841925,5
+2018,Ambient Particulate Matter Pollution,3987349,3.987349,7
+2018,High Ldl Cholesterol,4292468,4.292468,6
+2019,High Systolic Blood Pressure,10845595,10.845595,1
+2019,Diet High In Sodium,1885356,1.885356,10
+2019,Alcohol Use,2441974,2.441974,8
+2019,Low Birth Weight,1703121,1.703121,12
+2019,Household Air Pollution From Solid Fuels,2313991,2.313991,9
+2019,Smoking,7693368,7.693368,2
+2019,High Fasting Plasma Glucose,6501398,6.501398,4
+2019,Air Pollution,6671740,6.67174,3
+2019,Obesity,5019360,5.01936,5
+2019,Ambient Particulate Matter Pollution,4140971,4.140971,7
+2019,High Ldl Cholesterol,4396984,4.396984,6

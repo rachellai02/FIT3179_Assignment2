@@ -66,10 +66,39 @@ body * {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	}
+}
 
 .chart {
 flex: 1;
 margin: 10px;
 }
+
+/* Style for legend container */
+.legend {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  /* Style for each legend item */
+  .legend-item {
+	display: flex;
+	align-items: center;
+	margin-right: 20px; /* Adjust the spacing between legend items */
+  }
+  
+  /* Style for the colored square */
+  .legend-color {
+	display: inline-block;
+	width: 10px; /* Adjust the size of the square */
+	height: 10px; /* Adjust the size of the square */
+	margin-right: 5px; /* Adjust the spacing between square and text */
+  }
+  
+  /* Style for the legend text */
+  .legend-text {
+	font-size: 14px; /* Adjust the font size */
+	font-weight: bold; /* Optional: Adjust the font weight */
+  }
+  
   

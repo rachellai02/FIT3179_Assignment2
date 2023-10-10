@@ -32,6 +32,56 @@
       <div class="pure-g section">
         <div id="choropleth_map" class="vis-container"></div>
       </div>
+
+      <p style="text-align: center; font-weight: bold;">Share of Obese and Overweight Adults by Continents</p>
+      <div class="legend pure-g section">
+        <div class="legend-item">
+          <span class="legend-color" style="background-color: red;"></span>
+          <span class="legend-text" style="color: red;">Obese</span>
+        </div>
+        <div class="legend-item">
+          <span class="legend-color" style="background-color: orange;"></span>
+          <span class="legend-text" style="color: orange;">Overweight</span>
+        </div>
+        <div class="legend-item">
+          <span class="legend-color" style="background-color: gray;"></span>
+          <span class="legend-text" style="color: gray;">Others</span>
+        </div>
+      </div>      
+
+      <div class="pure-g section">
+        <!-- First Donut Chart -->
+        <div class="donut-column">
+          <div id="donut_africa" class="donut"></div>
+        </div>
+        
+        <!-- Second Donut Chart -->
+        <div class="donut-column">
+          <div id="donut_asia" class="donut"></div>
+        </div>
+  
+        <!-- Third Donut Chart -->
+        <div class="donut-column">
+          <div id="donut_europe" class="donut"></div>
+        </div>
+      </div>
+
+      <div class="pure-g section">
+        <!-- First Donut Chart -->
+        <div class="donut-column">
+          <div id="donut_oceania" class="donut"></div>
+        </div>
+        
+        <!-- Second Donut Chart -->
+        <div class="donut-column">
+          <div id="donut_north_america" class="donut"></div>
+        </div>
+  
+        <!-- Third Donut Chart -->
+        <div class="donut-column">
+          <div id="donut_south_america" class="donut"></div>
+        </div>
+      </div>
     
       <!-- Bubble Plot Interactive Chart Container -->
       <div class="pure-g section">
@@ -59,8 +109,38 @@
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
-    var spec4 = "js/bubble_plot_interactive.vg.json";
-    vegaEmbed('#bubble_plot_interactive', spec4).then(function(result) {
+    var spec4 = "js/donut_africa.vg.json";
+    vegaEmbed('#donut_africa', spec4).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    var spec5 = "js/donut_asia.vg.json";
+    vegaEmbed('#donut_asia', spec5).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    var spec6 = "js/donut_europe.vg.json";
+    vegaEmbed('#donut_europe', spec6).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    var spec7 = "js/donut_oceania.vg.json";
+    vegaEmbed('#donut_oceania', spec7).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    var spec8 = "js/donut_north_america.vg.json";
+    vegaEmbed('#donut_north_america', spec8).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    var spec9 = "js/donut_south_america.vg.json";
+    vegaEmbed('#donut_south_america', spec9).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    var spec10 = "js/bubble_plot_interactive.vg.json";
+    vegaEmbed('#bubble_plot_interactive', spec10).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
   </script>

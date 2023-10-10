@@ -61,7 +61,8 @@
           "type": "quantitative",
           "scale": {
             "type": "threshold",
-            "domain": [5, 10, 15, 20, 25, 30, 35]
+            "domain": [5, 10, 15, 20, 25, 30, 35],
+            "range": ["#ffff00", "#ffcc00", "#ffaa00", "#ff8800", "#ff6600", "#ff4400", "#cc0000", "#990000"]
           },
           "legend": {
             "title": "Share of obese adults (%)"
