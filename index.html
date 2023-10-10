@@ -88,6 +88,10 @@
         <div id="bubble_plot_interactive" class="vis-container"></div>
       </div>
 
+      <!-- Parallel Coordinate Plot Container -->
+      <div class="pure-g section">
+        <div id="parallel_coordinate_plot" class="vis-container"></div>
+      </div>
   </div>
 
   
@@ -141,6 +145,11 @@
 
     var spec10 = "js/bubble_plot_interactive.vg.json";
     vegaEmbed('#bubble_plot_interactive', spec10).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    var spec11 = "js/parallel_coordinate_plot.vg.json";
+    vegaEmbed('#parallel_coordinate_plot', spec11).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
   </script>

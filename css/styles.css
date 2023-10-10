@@ -69,8 +69,8 @@ body * {
 }
 
 .chart {
-flex: 1;
-margin: 10px;
+	flex: 1;
+	margin: 10px;
 }
 
 /* Style for legend container */
