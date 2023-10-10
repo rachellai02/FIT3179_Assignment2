@@ -11,8 +11,8 @@
   "transform": [{
     "filter": "datum.Rank <= 10"
   }],
-  "width": 300,
-  "height": 450,
+  "width": 350,
+  "height": 300,
   "mark": {"type": "line", "point": true},
   "encoding": {
     "x": {"field": "Year", "type": "ordinal", "axis": {"labelAngle": 0}},
