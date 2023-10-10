@@ -5,7 +5,7 @@
     "frame": "bounds"
   },
   "data": {
-    "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/number-of-deaths-by-risk-factor(cleaned).csv",
+    "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/top11-number-of-deaths-by-risk-factor(cleaned).csv",
     "format": {"type": "csv"}
   },
   "transform": [{
