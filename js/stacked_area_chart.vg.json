@@ -4,7 +4,7 @@
         {
             "title": "Number of Deaths by Death Causes in 2010-2019",
             "data": {
-                "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/agg-number-of-deaths-by-risk-factor.csv"
+                "url":"https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/number-of-deaths-by-risk-factor(cleaned).csv"
             },
             "encoding": {
                 "color": {
@@ -79,7 +79,7 @@
         {
             "title": "Total Number of Deaths by Death Causes by Year",
             "data": {
-                "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/agg-number-of-deaths-by-risk-factor.csv"
+                "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/number-of-deaths-by-risk-factor(cleaned).csv"
             },
             "encoding": {
                 "color": {
