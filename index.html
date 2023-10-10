@@ -21,6 +21,12 @@
     <div class="chart" id="ranking_line_chart"></div>
   </div>
 
+  <!-- Choropleth Map Chart Container -->
+  <div id="choropleth_map"></div>
+
+  <!-- Bubble Plot Interactive Chart Container -->
+  <div id="bubble_plot_interactive"></div>
+
   <script type="text/javascript">
     // Embed your charts here as you did before
     var spec1 = "js/stacked_area_chart.vg.json";
@@ -32,21 +38,11 @@
     vegaEmbed('#ranking_line_chart', spec2).then(function(result) {
         // Access the Vega view instance as result.view
     }).catch(console.error);
-  </script>
-
-  <div id="choropleth_map"></div>
-
-  <script type="text/javascript">
 
     var spec3 = "js/choropleth_map.vg.json";
     vegaEmbed('#choropleth_map', spec3).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
-  </script>
-
-  <div id="bubble_plot_interactive"></div>
-
-  <script type="text/javascript">
 
     var spec4 = "js/bubble_plot_interactive.vg.json";
     vegaEmbed('#bubble_plot_interactive', spec4).then(function(result) {

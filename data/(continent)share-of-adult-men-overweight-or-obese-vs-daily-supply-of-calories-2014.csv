@@ -1,0 +1,169 @@
+Entity,Daily caloric supply,Obese,Population,Continent
+Afghanistan,2095,13.2,32716214,Asia
+Albania,3266,58.4,2884100,Europe
+Algeria,3377,51.5,38760168,Africa
+Angola,2419,18.6,27128340,Africa
+Antigua and Barbuda,2400,53.2,89252,North America
+Argentina,3245,66.6,42824064,South America
+Armenia,3069,54.9,2889937,Asia
+Australia,3407,69.6,23469578,Oceania
+Austria,3672,62.5,8546066,Europe
+Azerbaijan,3093,55.1,9741879,Asia
+Bahamas,2636,60.9,389137,North America
+Bangladesh,2494,14.1,155961312,Asia
+Barbados,2913,51.3,277501,North America
+Belarus,3335,60.9,9693741,Europe
+Belgium,3789,66.9,11176727,Europe
+Belize,2627,46.3,352343,North America
+Benin,2739,16.8,10614845,Africa
+Bolivia,2310,49,10916991,South America
+Bosnia and Herzegovina,3200,54.9,3571070,Europe
+Botswana,2385,30.8,2260383,Africa
+Brazil,3303,55.2,203459648,South America
+Bulgaria,2865,63.5,7372142,Europe
+Burkina Faso,2737,15,18169844,Africa
+Cambodia,2504,12.4,15210817,Asia
+Cameroon,2685,21.7,22299590,Africa
+Canada,3414,69,35404616,North America
+Central African Republic,1769,12.7,4798739,Africa
+Chad,2147,14.6,13697128,Africa
+Chile,3008,64.7,17687108,South America
+China,3151,38.7,1385189632,Asia
+Colombia,2922,54.2,46677944,South America
+Congo,2221,22.2,4944865,Africa
+Costa Rica,2890,58.4,4844293,North America
+Croatia,2977,64,4283968,Europe
+Cuba,3353,51.9,11332030,North America
+Cyprus,2995,64.2,1176997,Asia
+Czechia,3197,69.2,10517178,Europe
+Denmark,3355,64.7,5650654,Europe
+Djibouti,2581,24.8,989091,Africa
+Dominica,2962,50.9,69388,North America
+Dominican Republic,2767,49.4,10282116,North America
+Ecuador,2612,52.5,15957995,South America
+Egypt,3388,55.5,95592328,Africa
+El Salvador,2586,52.2,6209528,North America
+Estonia,3210,60.7,1314531,Europe
+Eswatini,2375,25.4,1125872,Africa
+Ethiopia,2250,10.3,99746768,Africa
+Fiji,2751,59,915576,Oceania
+Finland,3320,62,5461436,Europe
+France,3411,66.9,63588496,Europe
+French Polynesia,2958,82.6,289880,Oceania
+Gabon,2754,33.9,1966858,Africa
+Gambia,2593,21.9,2189023,Africa
+Georgia,2797,52.6,3774232,Asia
+Germany,3541,64,81858824,Europe
+Ghana,2982,21.9,28196356,Africa
+Greece,3439,66.7,10862972,Europe
+Grenada,2366,47.5,117986,North America
+Guatemala,2447,48.1,15713744,North America
+Guinea,2648,16.4,11333362,Africa
+Guinea-Bissau,2171,17.4,1743318,Africa
+Guyana,2791,42.7,751126,South America
+Haiti,2143,30.9,10412741,North America
+Honduras,2566,47,9127851,North America
+Hong Kong,3250,53.7,7352180,Asia
+Hungary,3110,67.1,9867906,Europe
+Iceland,3458,64.9,327650,Europe
+India,2460,16.4,1307246464,Asia
+Indonesia,2819,19.7,256229760,Asia
+Iran,3105,56.5,79961672,Asia
+Iraq,2597,53.7,36746484,Asia
+Ireland,3654,67,4622165,Europe
+Israel,3576,68.4,7863849,Asia
+Italy,3487,65.7,60322792,Europe
+Jamaica,2714,48.3,2784542,North America
+Japan,2720,28.8,127476728,Asia
+Jordan,2866,62.5,8658030,Asia
+Kazakhstan,3178,59.9,17592296,Asia
+Kenya,2183,17.1,45831860,Africa
+Kiribati,3095,69,115002,Oceania
+Kuwait,3466,72.7,3761590,Asia
+Kyrgyzstan,2713,45.2,5814426,Asia
+Laos,2674,14.5,6691467,Asia
+Latvia,3208,63.3,2011040,Europe
+Lebanon,2958,64.3,6274345,Asia
+Lesotho,2356,18.9,2095251,Africa
+Liberia,2154,17.4,4519410,Africa
+Lithuania,3387,63.7,2994928,Europe
+Luxembourg,3495,67.3,556075,Europe
+Madagascar,1986,14.4,24215980,Africa
+Malawi,2501,11.6,16477972,Africa
+Malaysia,2831,37.5,30606454,Asia
+Maldives,2397,28,416746,Asia
+Mali,2833,17.5,17551824,Africa
+Malta,3415,69.8,446449,Europe
+Mauritania,2882,23.2,3843181,Africa
+Mauritius,3040,36.5,1292112,Africa
+Mexico,3132,63.6,118755888,North America
+Moldova,2348,48.9,3338338,Europe
+Mongolia,2513,50,2902826,Asia
+Montenegro,3376,63.6,634301,Europe
+Morocco,3396,49.7,34248608,Africa
+Mozambique,2176,12,26038704,Africa
+Myanmar,2653,14.6,51072436,Asia
+Namibia,2369,26.7,2243008,Africa
+Nepal,2714,15.5,27462110,Asia
+Netherlands,3213,62.6,16954080,Europe
+New Zealand,3148,68.8,4514198,Oceania
+Nicaragua,2529,45.9,6208680,North America
+Niger,2556,11.2,19372012,Africa
+Nigeria,2626,23.6,179379024,Africa
+North Korea,2087,18.9,25126140,Asia
+North Macedonia,2955,60.2,2105293,Europe
+Norway,3466,65.4,5137926,Europe
+Oman,2989,60.9,4009272,Asia
+Pakistan,2429,21,208251632,Asia
+Panama,2751,58,3888795,North America
+Paraguay,2770,51.5,6090727,South America
+Peru,2738,52.7,30353956,South America
+Philippines,2508,21.8,101325208,Asia
+Poland,3414,65.2,38581880,Europe
+Portugal,3377,62.2,10408379,Europe
+Romania,3417,63.9,19995836,Europe
+Russia,3365,60.3,144285072,Europe
+Rwanda,2214,10.3,11368450,Africa
+Saint Kitts and Nevis,2511,52.1,47816,North America
+Saint Lucia,2618,48.1,174814,North America
+Saint Vincent and the Grenadines,2945,49.5,106934,North America
+Samoa,2974,73.4,201769,Oceania
+Sao Tome and Principe,2381,24.1,197511,Africa
+Saudi Arabia,3274,65.5,32125570,Asia
+Senegal,2438,19.5,13970314,Africa
+Serbia,2807,59.3,7543965,Europe
+Sierra Leone,2301,16.9,7140700,Africa
+Slovakia,2823,64.5,5419572,Europe
+Slovenia,3203,64.1,2074923,Europe
+Solomon Islands,2376,38.9,597386,Oceania
+South Africa,2976,40.2,54729556,Africa
+South Korea,3333,37.9,50558044,Asia
+Spain,3163,67.1,46464548,Europe
+Sri Lanka,2618,17.3,21239448,Asia
+Sudan,2589,21.5,37003248,Africa
+Suriname,2764,52,569687,South America
+Sweden,3198,62.6,9747507,Europe
+Switzerland,3421,64.3,8187792,Europe
+Taiwan,2960,42.4,23422504,Asia
+Tajikistan,2091,39.4,8326354,Asia
+Tanzania,2339,15.2,50814552,Africa
+Thailand,2771,26,69960944,Asia
+Togo,2433,15.7,7288381,Africa
+Trinidad and Tobago,2987,51.2,1450663,North America
+Tunisia,3435,55.1,11428953,Africa
+Turkey,3659,63,78112064,Asia
+Turkmenistan,2904,52.6,5663159,Asia
+Uganda,2127,12.5,36336544,Africa
+Ukraine,3145,57.4,45148072,Europe
+United Arab Emirates,3398,67.7,8835957,Asia
+United Kingdom,3376,67.7,64773504,Europe
+United States,3717,72.8,322033952,North America
+Uruguay,3157,62.9,3391660,South America
+Uzbekistan,2964,46.8,30446542,Asia
+Vanuatu,2733,47.2,269942,Oceania
+Venezuela,2610,62.2,30193260,South America
+Vietnam,2853,15.8,91235504,Asia
+World,2895.239696,38.3,7339013632,World
+Yemen,2156,36.8,27753310,Asia
+Zambia,2013,18.5,15737796,Africa
+Zimbabwe,1986,19.5,13855758,Africa
