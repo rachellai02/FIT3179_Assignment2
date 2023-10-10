@@ -2,9 +2,9 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 800,
   "height": 500,
-  "title": "Share of adult men with obesity vs daily supply of calories in 2014",
+  "title": "Share of adult men with obesity vs daily supply of calories",
   "data": {
-    "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/continent-share-of-adult-men-overweight-or-obese-vs-daily-supply-of-calories-2014.csv"
+    "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/continent-share-of-adult-men-overweight-or-obese-vs-daily-supply-of-calories.csv"
   },
   "params": [
     {
@@ -45,6 +45,7 @@
     },
     {
       "name": "Year_selection",
+      "value": 2010,
       "bind": {
         "input": "range",
         "min": 2010,

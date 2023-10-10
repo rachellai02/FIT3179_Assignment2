@@ -13,19 +13,34 @@
 </head>
 <body>
 
-  <div class="chart-container">
-    <!-- First Chart Container (60%) -->
-    <div class="chart" id="stacked_area_chart"></div>
+  <div class="page">
+    <h1>
+      World Obesity Insights
+    </h1>
+
+    <div class="pure-g section">
+      <div class="chart-container">
+        <!-- First Chart Container (60%) -->
+        <div class="chart" id="stacked_area_chart"></div>
+        
+        <!-- Second Chart Container (40%) -->
+        <div class="chart" id="ranking_line_chart"></div>
+      </div>
+    </div>
     
-    <!-- Second Chart Container (40%) -->
-    <div class="chart" id="ranking_line_chart"></div>
+      <!-- Choropleth Map Chart Container -->
+      <div class="pure-g section">
+        <div id="choropleth_map" class="vis-container"></div>
+      </div>
+    
+      <!-- Bubble Plot Interactive Chart Container -->
+      <div class="pure-g section">
+        <div id="bubble_plot_interactive" class="vis-container"></div>
+      </div>
+
   </div>
 
-  <!-- Choropleth Map Chart Container -->
-  <div id="choropleth_map"></div>
-
-  <!-- Bubble Plot Interactive Chart Container -->
-  <div id="bubble_plot_interactive"></div>
+  
 
   <script type="text/javascript">
     // Embed your charts here as you did before

@@ -1,0 +1,951 @@
+Country,Year,Percentage,Continent
+Afghanistan,2010,3.3,Asia
+Afghanistan,2011,3.5,Asia
+Afghanistan,2012,3.7,Asia
+Afghanistan,2013,3.9,Asia
+Afghanistan,2014,4.1,Asia
+Albania,2010,18.7,Europe
+Albania,2011,19.3,Europe
+Albania,2012,19.9,Europe
+Albania,2013,20.5,Europe
+Albania,2014,21.1,Europe
+Algeria,2010,21.4,Africa
+Algeria,2011,22.2,Africa
+Algeria,2012,23.1,Africa
+Algeria,2013,23.9,Africa
+Algeria,2014,24.8,Africa
+Andorra,2010,26,Europe
+Andorra,2011,26.3,Europe
+Andorra,2012,26.6,Europe
+Andorra,2013,27,Europe
+Andorra,2014,27.3,Europe
+Angola,2010,5.1,Africa
+Angola,2011,5.3,Africa
+Angola,2012,5.6,Africa
+Angola,2013,5.9,Africa
+Angola,2014,6.2,Africa
+Antigua and Barbuda,2010,16.1,North America
+Antigua and Barbuda,2011,16.6,North America
+Antigua and Barbuda,2012,17,North America
+Antigua and Barbuda,2013,17.5,North America
+Antigua and Barbuda,2014,18,North America
+Argentina,2010,25.3,South America
+Argentina,2011,25.8,South America
+Argentina,2012,26.3,South America
+Argentina,2013,26.9,South America
+Argentina,2014,27.4,South America
+Armenia,2010,17.5,Asia
+Armenia,2011,17.9,Asia
+Armenia,2012,18.5,Asia
+Armenia,2013,19,Asia
+Armenia,2014,19.6,Asia
+Australia,2010,26.7,Oceania
+Australia,2011,27.3,Oceania
+Australia,2012,27.9,Oceania
+Australia,2013,28.5,Oceania
+Australia,2014,29.1,Oceania
+Austria,2010,19.2,Europe
+Austria,2011,19.6,Europe
+Austria,2012,20.1,Europe
+Austria,2013,20.5,Europe
+Austria,2014,21,Europe
+Azerbaijan,2010,15.9,Asia
+Azerbaijan,2011,16.5,Asia
+Azerbaijan,2012,17.1,Asia
+Azerbaijan,2013,17.8,Asia
+Azerbaijan,2014,18.5,Asia
+Bahamas,2010,28.6,North America
+Bahamas,2011,29.2,North America
+Bahamas,2012,29.7,North America
+Bahamas,2013,30.3,North America
+Bahamas,2014,30.9,North America
+Bahrain,2010,25,Asia
+Bahrain,2011,25.6,Asia
+Bahrain,2012,26.2,Asia
+Bahrain,2013,26.8,Asia
+Bahrain,2014,27.4,Asia
+Bangladesh,2010,2.2,Asia
+Bangladesh,2011,2.4,Asia
+Bangladesh,2012,2.6,Asia
+Bangladesh,2013,2.7,Asia
+Bangladesh,2014,2.9,Asia
+Barbados,2010,21,North America
+Barbados,2011,21.6,North America
+Barbados,2012,22.2,North America
+Barbados,2013,22.8,North America
+Barbados,2014,23.5,North America
+Belarus,2010,23.7,Europe
+Belarus,2011,24.1,Europe
+Belarus,2012,24.6,Europe
+Belarus,2013,25.1,Europe
+Belarus,2014,25.6,Europe
+Belgium,2010,22.2,Europe
+Belgium,2011,22.5,Europe
+Belgium,2012,22.9,Europe
+Belgium,2013,23.3,Europe
+Belgium,2014,23.7,Europe
+Belize,2010,18.8,North America
+Belize,2011,19.3,North America
+Belize,2012,19.9,North America
+Belize,2013,20.5,North America
+Belize,2014,21.1,North America
+Benin,2010,6.4,Africa
+Benin,2011,6.7,Africa
+Benin,2012,7,Africa
+Benin,2013,7.3,Africa
+Benin,2014,7.6,Africa
+Bhutan,2010,4,Asia
+Bhutan,2011,4.2,Asia
+Bhutan,2012,4.5,Asia
+Bhutan,2013,4.8,Asia
+Bhutan,2014,5.1,Asia
+Bolivia,2010,15.9,South America
+Bolivia,2011,16.3,South America
+Bolivia,2012,16.8,South America
+Bolivia,2013,17.3,South America
+Bolivia,2014,17.7,South America
+Bosnia and Herzegovina,2010,17,Europe
+Bosnia and Herzegovina,2011,17.3,Europe
+Bosnia and Herzegovina,2012,17.7,Europe
+Bosnia and Herzegovina,2013,18.1,Europe
+Bosnia and Herzegovina,2014,18.5,Europe
+Botswana,2010,14.1,Africa
+Botswana,2011,14.4,Africa
+Botswana,2012,14.7,Africa
+Botswana,2013,15,Africa
+Botswana,2014,15.4,Africa
+Brazil,2010,18.8,South America
+Brazil,2011,19.4,South America
+Brazil,2012,19.9,South America
+Brazil,2013,20.5,South America
+Brazil,2014,21.1,South America
+Brunei,2010,11.2,Asia
+Brunei,2011,11.7,Asia
+Brunei,2012,12.3,Asia
+Brunei,2013,12.9,Asia
+Brunei,2014,13.5,Asia
+Bulgaria,2010,24.3,Europe
+Bulgaria,2011,24.8,Europe
+Bulgaria,2012,25.3,Europe
+Bulgaria,2013,25.8,Europe
+Bulgaria,2014,26.4,Europe
+Burkina Faso,2010,3.2,Africa
+Burkina Faso,2011,3.4,Africa
+Burkina Faso,2012,3.6,Africa
+Burkina Faso,2013,3.8,Africa
+Burkina Faso,2014,4,Africa
+Burundi,2010,3.1,Africa
+Burundi,2011,3.3,Africa
+Burundi,2012,3.5,Africa
+Burundi,2013,3.7,Africa
+Burundi,2014,4,Africa
+Cambodia,2010,2.4,Asia
+Cambodia,2011,2.5,Asia
+Cambodia,2012,2.7,Asia
+Cambodia,2013,2.9,Asia
+Cambodia,2014,3.1,Asia
+Cameroon,2010,7.5,Africa
+Cameroon,2011,7.8,Africa
+Cameroon,2012,8.1,Africa
+Cameroon,2013,8.4,Africa
+Cameroon,2014,8.8,Africa
+Canada,2010,27.6,North America
+Canada,2011,28.2,North America
+Canada,2012,28.8,North America
+Canada,2013,29.4,North America
+Canada,2014,30.1,North America
+Cape Verde,2010,8.1,Africa
+Cape Verde,2011,8.5,Africa
+Cape Verde,2012,8.9,Africa
+Cape Verde,2013,9.3,Africa
+Cape Verde,2014,9.7,Africa
+Central African Rep.,2010,4.9,Africa
+Central African Rep.,2011,5.1,Africa
+Central African Rep.,2012,5.3,Africa
+Central African Rep.,2013,5.6,Africa
+Central African Rep.,2014,5.8,Africa
+Chad,2010,3.7,Africa
+Chad,2011,3.9,Africa
+Chad,2012,4,Africa
+Chad,2013,4.2,Africa
+Chad,2014,4.4,Africa
+Chile,2010,25.5,South America
+Chile,2011,26,South America
+Chile,2012,26.6,South America
+Chile,2013,27.1,South America
+Chile,2014,27.7,South America
+China,2010,4.5,Asia
+China,2011,4.8,Asia
+China,2012,5.1,Asia
+China,2013,5.5,Asia
+China,2014,5.8,Asia
+Colombia,2010,18.8,South America
+Colombia,2011,19.4,South America
+Colombia,2012,19.9,South America
+Colombia,2013,20.5,South America
+Colombia,2014,21,South America
+Comoros,2010,5.3,Africa
+Comoros,2011,5.5,Africa
+Comoros,2012,5.8,Africa
+Comoros,2013,6.1,Africa
+Comoros,2014,6.3,Africa
+Congo,2010,6.5,Africa
+Congo,2011,6.8,Africa
+Congo,2012,7.1,Africa
+Congo,2013,7.4,Africa
+Congo,2014,7.7,Africa
+Cook Islands,2010,51.8,Oceania
+Cook Islands,2011,52.4,Oceania
+Cook Islands,2012,53,Oceania
+Cook Islands,2013,53.6,Oceania
+Cook Islands,2014,54.2,Oceania
+Costa Rica,2010,20.8,North America
+Costa Rica,2011,21.6,North America
+Costa Rica,2012,22.4,North America
+Costa Rica,2013,23.2,North America
+Costa Rica,2014,24,North America
+Côte d'Ivoire,2010,7,Africa
+Côte d'Ivoire,2011,7.3,Africa
+Côte d'Ivoire,2012,7.6,Africa
+Côte d'Ivoire,2013,8,Africa
+Côte d'Ivoire,2014,8.3,Africa
+Croatia,2010,23.8,Europe
+Croatia,2011,24.4,Europe
+Croatia,2012,24.9,Europe
+Croatia,2013,25.4,Europe
+Croatia,2014,26,Europe
+Cuba,2010,23.1,North America
+Cuba,2011,23.7,North America
+Cuba,2012,24.3,North America
+Cuba,2013,24.9,North America
+Cuba,2014,25.5,North America
+Cyprus,2010,20.1,Asia
+Cyprus,2011,20.5,Asia
+Cyprus,2012,20.9,Asia
+Cyprus,2013,21.3,Asia
+Cyprus,2014,21.7,Asia
+Czechia,2010,25.8,Europe
+Czechia,2011,26.2,Europe
+Czechia,2012,26.6,Europe
+Czechia,2013,27.1,Europe
+Czechia,2014,27.6,Europe
+Dem. Rep. Congo,2010,4.2,Africa
+Dem. Rep. Congo,2011,4.4,Africa
+Dem. Rep. Congo,2012,4.6,Africa
+Dem. Rep. Congo,2013,4.8,Africa
+Dem. Rep. Congo,2014,5.1,Africa
+Denmark,2010,19,Europe
+Denmark,2011,19.4,Europe
+Denmark,2012,19.8,Europe
+Denmark,2013,20.1,Europe
+Denmark,2014,20.5,Europe
+Djibouti,2010,10.2,Africa
+Djibouti,2011,10.5,Africa
+Djibouti,2012,10.8,Africa
+Djibouti,2013,11.1,Africa
+Djibouti,2014,11.5,Africa
+Dominica,2010,24.3,North America
+Dominica,2011,24.9,North America
+Dominica,2012,25.6,North America
+Dominica,2013,26.2,North America
+Dominica,2014,26.8,North America
+Dominican Rep.,2010,21.8,North America
+Dominican Rep.,2011,22.7,North America
+Dominican Rep.,2012,23.5,North America
+Dominican Rep.,2013,24.3,North America
+Dominican Rep.,2014,25.2,North America
+East Timor,2010,2.1,Asia
+East Timor,2011,2.3,Asia
+East Timor,2012,2.4,Asia
+East Timor,2013,2.5,Asia
+East Timor,2014,2.6,Asia
+Ecuador,2010,16.3,South America
+Ecuador,2011,16.8,South America
+Ecuador,2012,17.3,South America
+Ecuador,2013,17.8,South America
+Ecuador,2014,18.3,South America
+Egypt,2010,26.5,Africa
+Egypt,2011,27.2,Africa
+Egypt,2012,27.9,Africa
+Egypt,2013,28.7,Africa
+Egypt,2014,29.5,Africa
+El Salvador,2010,19.4,North America
+El Salvador,2011,19.9,North America
+El Salvador,2012,20.4,North America
+El Salvador,2013,20.9,North America
+El Salvador,2014,21.5,North America
+Eq. Guinea,2010,5.8,Africa
+Eq. Guinea,2011,6,Africa
+Eq. Guinea,2012,6.2,Africa
+Eq. Guinea,2013,6.5,Africa
+Eq. Guinea,2014,6.8,Africa
+Eritrea,2010,2.9,Africa
+Eritrea,2011,3,Africa
+Eritrea,2012,3.2,Africa
+Eritrea,2013,3.4,Africa
+Eritrea,2014,3.6,Africa
+Estonia,2010,21.6,Europe
+Estonia,2011,22,Europe
+Estonia,2012,22.3,Europe
+Estonia,2013,22.7,Europe
+Estonia,2014,23,Europe
+eSwatini,2010,11.4,Africa
+eSwatini,2011,11.7,Africa
+eSwatini,2012,12,Africa
+eSwatini,2013,12.4,Africa
+eSwatini,2014,12.7,Africa
+Ethiopia,2010,2.7,Africa
+Ethiopia,2011,2.8,Africa
+Ethiopia,2012,2.9,Africa
+Ethiopia,2013,3.1,Africa
+Ethiopia,2014,3.3,Africa
+Fiji,2010,25.8,Oceania
+Fiji,2011,26.5,Oceania
+Fiji,2012,27.2,Oceania
+Fiji,2013,27.9,Oceania
+Fiji,2014,28.6,Oceania
+Finland,2010,22.4,Europe
+Finland,2011,22.8,Europe
+Finland,2012,23.2,Europe
+Finland,2013,23.6,Europe
+Finland,2014,24,Europe
+France,2010,20.8,Europe
+France,2011,21.2,Europe
+France,2012,21.6,Europe
+France,2013,22,Europe
+France,2014,22.4,Europe
+Gabon,2010,11.3,Africa
+Gabon,2011,11.7,Africa
+Gabon,2012,12,Africa
+Gabon,2013,12.3,Africa
+Gabon,2014,12.7,Africa
+Gambia,2010,6.7,Africa
+Gambia,2011,7,Africa
+Gambia,2012,7.3,Africa
+Gambia,2013,7.7,Africa
+Gambia,2014,8,Africa
+Georgia,2010,19,Asia
+Georgia,2011,19.7,Asia
+Georgia,2012,20.3,Asia
+Georgia,2013,21,Asia
+Georgia,2014,21.7,Asia
+Germany,2010,22.8,Europe
+Germany,2011,23.3,Europe
+Germany,2012,23.7,Europe
+Germany,2013,24.2,Europe
+Germany,2014,24.7,Europe
+Ghana,2010,7.6,Africa
+Ghana,2011,7.9,Africa
+Ghana,2012,8.3,Africa
+Ghana,2013,8.6,Africa
+Ghana,2014,9,Africa
+Greece,2010,24.4,Europe
+Greece,2011,24.9,Europe
+Greece,2012,25.4,Europe
+Greece,2013,25.9,Europe
+Greece,2014,26.4,Europe
+Grenada,2010,16.3,North America
+Grenada,2011,16.9,North America
+Grenada,2012,17.5,North America
+Grenada,2013,18.1,North America
+Grenada,2014,18.7,North America
+Guatemala,2010,15.6,North America
+Guatemala,2011,16.1,North America
+Guatemala,2012,16.6,North America
+Guatemala,2013,17.1,North America
+Guatemala,2014,17.7,North America
+Guinea,2010,5,Africa
+Guinea,2011,5.3,Africa
+Guinea,2012,5.5,Africa
+Guinea,2013,5.8,Africa
+Guinea,2014,6,Africa
+Guinea-Bissau,2010,6.2,Africa
+Guinea-Bissau,2011,6.5,Africa
+Guinea-Bissau,2012,6.8,Africa
+Guinea-Bissau,2013,7.1,Africa
+Guinea-Bissau,2014,7.5,Africa
+Guyana,2010,15.4,South America
+Guyana,2011,16,South America
+Guyana,2012,16.6,South America
+Guyana,2013,17.3,South America
+Guyana,2014,17.9,South America
+Haiti,2010,15.6,North America
+Haiti,2011,16.4,North America
+Haiti,2012,17.2,North America
+Haiti,2013,18,North America
+Haiti,2014,18.8,North America
+Honduras,2010,15.7,North America
+Honduras,2011,16.3,North America
+Honduras,2012,16.9,North America
+Honduras,2013,17.5,North America
+Honduras,2014,18.1,North America
+Hungary,2010,25.3,Europe
+Hungary,2011,25.8,Europe
+Hungary,2012,26.4,Europe
+Hungary,2013,26.9,Europe
+Hungary,2014,27.5,Europe
+Iceland,2010,20.5,Europe
+Iceland,2011,20.9,Europe
+Iceland,2012,21.3,Europe
+Iceland,2013,21.8,Europe
+Iceland,2014,22.2,Europe
+India,2010,2.7,Asia
+India,2011,2.9,Asia
+India,2012,3,Asia
+India,2013,3.2,Asia
+India,2014,3.4,Asia
+Indonesia,2010,4.8,Asia
+Indonesia,2011,5.1,Asia
+Indonesia,2012,5.4,Asia
+Indonesia,2013,5.8,Asia
+Indonesia,2014,6.2,Asia
+Iran,2010,20.3,Asia
+Iran,2011,21.1,Asia
+Iran,2012,22,Asia
+Iran,2013,22.8,Asia
+Iran,2014,23.7,Asia
+Iraq,2010,23.8,Asia
+Iraq,2011,24.4,Asia
+Iraq,2012,25,Asia
+Iraq,2013,25.6,Asia
+Iraq,2014,26.2,Asia
+Ireland,2010,22.4,Europe
+Ireland,2011,23.2,Europe
+Ireland,2012,23.9,Europe
+Ireland,2013,24.7,Europe
+Ireland,2014,25.4,Europe
+Israel,2010,24.5,Asia
+Israel,2011,24.9,Asia
+Israel,2012,25.3,Asia
+Israel,2013,25.6,Asia
+Israel,2014,25.9,Asia
+Italy,2010,20.6,Europe
+Italy,2011,21,Europe
+Italy,2012,21.4,Europe
+Italy,2013,21.7,Europe
+Italy,2014,22.1,Europe
+Jamaica,2010,20.7,North America
+Jamaica,2011,21.3,North America
+Jamaica,2012,21.9,North America
+Jamaica,2013,22.5,North America
+Jamaica,2014,23.1,North America
+Japan,2010,3.5,Asia
+Japan,2011,3.6,Asia
+Japan,2012,3.8,Asia
+Japan,2013,3.9,Asia
+Japan,2014,4.1,Asia
+Jordan,2010,28.9,Asia
+Jordan,2011,29.6,Asia
+Jordan,2012,30.3,Asia
+Jordan,2013,31,Asia
+Jordan,2014,31.8,Asia
+Kazakhstan,2010,17.6,Asia
+Kazakhstan,2011,18.1,Asia
+Kazakhstan,2012,18.7,Asia
+Kazakhstan,2013,19.3,Asia
+Kazakhstan,2014,19.9,Asia
+Kenya,2010,4.3,Africa
+Kenya,2011,4.6,Africa
+Kenya,2012,4.8,Africa
+Kenya,2013,5.1,Africa
+Kenya,2014,5.4,Africa
+Kiribati,2010,41.7,Oceania
+Kiribati,2011,42.3,Oceania
+Kiribati,2012,43,Oceania
+Kiribati,2013,43.7,Oceania
+Kiribati,2014,44.3,Oceania
+Kuwait,2010,33.1,Asia
+Kuwait,2011,33.7,Asia
+Kuwait,2012,34.3,Asia
+Kuwait,2013,34.9,Asia
+Kuwait,2014,35.6,Asia
+Kyrgyzstan,2010,11.9,Asia
+Kyrgyzstan,2011,12.4,Asia
+Kyrgyzstan,2012,12.9,Asia
+Kyrgyzstan,2013,13.5,Asia
+Kyrgyzstan,2014,14.1,Asia
+Laos,2010,2.9,Asia
+Laos,2011,3.2,Asia
+Laos,2012,3.4,Asia
+Laos,2013,3.6,Asia
+Laos,2014,3.9,Asia
+Latvia,2010,23.5,Europe
+Latvia,2011,23.8,Europe
+Latvia,2012,24.2,Europe
+Latvia,2013,24.5,Europe
+Latvia,2014,24.9,Europe
+Lebanon,2010,27.9,Asia
+Lebanon,2011,28.3,Asia
+Lebanon,2012,28.8,Asia
+Lebanon,2013,29.3,Asia
+Lebanon,2014,29.9,Asia
+Lesotho,2010,11.3,Africa
+Lesotho,2011,11.6,Africa
+Lesotho,2012,12,Africa
+Lesotho,2013,12.3,Africa
+Lesotho,2014,12.7,Africa
+Liberia,2010,6.8,Africa
+Liberia,2011,7,Africa
+Liberia,2012,7.3,Africa
+Liberia,2013,7.6,Africa
+Liberia,2014,8,Africa
+Libya,2010,26.7,Africa
+Libya,2011,27.5,Africa
+Libya,2012,28.3,Africa
+Libya,2013,29.2,Africa
+Libya,2014,30.1,Africa
+Lithuania,2010,25.9,Europe
+Lithuania,2011,26.3,Europe
+Lithuania,2012,26.7,Europe
+Lithuania,2013,27.1,Europe
+Lithuania,2014,27.5,Europe
+Luxembourg,2010,21.5,Europe
+Luxembourg,2011,21.9,Europe
+Luxembourg,2012,22.4,Europe
+Luxembourg,2013,22.8,Europe
+Luxembourg,2014,23.3,Europe
+Madagascar,2010,3.2,Africa
+Madagascar,2011,3.4,Africa
+Madagascar,2012,3.6,Africa
+Madagascar,2013,3.8,Africa
+Madagascar,2014,4,Africa
+Malawi,2010,3.6,Africa
+Malawi,2011,3.7,Africa
+Malawi,2012,3.9,Africa
+Malawi,2013,4.1,Africa
+Malawi,2014,4.3,Africa
+Malaysia,2010,11.5,Asia
+Malaysia,2011,12.1,Asia
+Malaysia,2012,12.7,Asia
+Malaysia,2013,13.4,Asia
+Malaysia,2014,14,Asia
+Maldives,2010,5.1,Asia
+Maldives,2011,5.5,Asia
+Maldives,2012,5.9,Asia
+Maldives,2013,6.3,Asia
+Maldives,2014,6.8,Asia
+Mali,2010,5.3,Africa
+Mali,2011,5.6,Africa
+Mali,2012,5.9,Africa
+Mali,2013,6.2,Africa
+Mali,2014,6.5,Africa
+Malta,2010,28.7,Europe
+Malta,2011,29.1,Europe
+Malta,2012,29.5,Europe
+Malta,2013,29.9,Europe
+Malta,2014,30.3,Europe
+Marshall Islands,2010,48.9,Oceania
+Marshall Islands,2011,49.5,Oceania
+Marshall Islands,2012,50.1,Oceania
+Marshall Islands,2013,50.7,Oceania
+Marshall Islands,2014,51.3,Oceania
+Mauritania,2010,8.9,Africa
+Mauritania,2011,9.3,Africa
+Mauritania,2012,9.7,Africa
+Mauritania,2013,10.1,Africa
+Mauritania,2014,10.5,Africa
+Mauritius,2010,9.5,Africa
+Mauritius,2011,9.8,Africa
+Mauritius,2012,10.1,Africa
+Mauritius,2013,10.4,Africa
+Mauritius,2014,10.8,Africa
+Mexico,2010,24.9,North America
+Mexico,2011,25.5,North America
+Mexico,2012,26,North America
+Mexico,2013,26.6,North America
+Mexico,2014,27.2,North America
+Moldova,2010,17.5,Europe
+Moldova,2011,17.9,Europe
+Moldova,2012,18.3,Europe
+Moldova,2013,18.7,Europe
+Moldova,2014,19.2,Europe
+Mongolia,2010,14.9,Asia
+Mongolia,2011,15.6,Asia
+Mongolia,2012,16.3,Asia
+Mongolia,2013,17.1,Asia
+Mongolia,2014,17.9,Asia
+Montenegro,2010,22.1,Europe
+Montenegro,2011,22.6,Europe
+Montenegro,2012,23.1,Europe
+Montenegro,2013,23.5,Europe
+Montenegro,2014,23.9,Europe
+Morocco,2010,20.9,Africa
+Morocco,2011,21.6,Africa
+Morocco,2012,22.4,Africa
+Morocco,2013,23.2,Africa
+Morocco,2014,24,Africa
+Mozambique,2010,4.7,Africa
+Mozambique,2011,4.9,Africa
+Mozambique,2012,5.1,Africa
+Mozambique,2013,5.3,Africa
+Mozambique,2014,5.5,Africa
+Myanmar,2010,3.8,Asia
+Myanmar,2011,4.1,Asia
+Myanmar,2012,4.4,Asia
+Myanmar,2013,4.7,Asia
+Myanmar,2014,5,Asia
+Namibia,2010,12,Africa
+Namibia,2011,12.4,Africa
+Namibia,2012,12.9,Africa
+Namibia,2013,13.4,Africa
+Namibia,2014,13.9,Africa
+Nauru,2010,58.5,Oceania
+Nauru,2011,58.9,Oceania
+Nauru,2012,59.3,Oceania
+Nauru,2013,59.7,Oceania
+Nauru,2014,60,Oceania
+Nepal,2010,2.6,Asia
+Nepal,2011,2.8,Asia
+Nepal,2012,3,Asia
+Nepal,2013,3.2,Asia
+Nepal,2014,3.3,Asia
+Netherlands,2010,19.9,Europe
+Netherlands,2011,20.5,Europe
+Netherlands,2012,21,Europe
+Netherlands,2013,21.5,Europe
+Netherlands,2014,22.1,Europe
+New Zealand,2010,28.3,Oceania
+New Zealand,2011,28.9,Oceania
+New Zealand,2012,29.5,Oceania
+New Zealand,2013,30.1,Oceania
+New Zealand,2014,30.7,Oceania
+Nicaragua,2010,18.2,North America
+Nicaragua,2011,18.8,North America
+Nicaragua,2012,19.3,North America
+Nicaragua,2013,19.9,North America
+Nicaragua,2014,20.5,North America
+Niger,2010,3.6,Africa
+Niger,2011,3.8,Africa
+Niger,2012,3.9,Africa
+Niger,2013,4.1,Africa
+Niger,2014,4.3,Africa
+Nigeria,2010,5.8,Africa
+Nigeria,2011,6.1,Africa
+Nigeria,2012,6.4,Africa
+Nigeria,2013,6.7,Africa
+Nigeria,2014,7,Africa
+Niue,2010,44.3,Oceania
+Niue,2011,45.2,Oceania
+Niue,2012,46,Oceania
+Niue,2013,46.9,Oceania
+Niue,2014,47.7,Oceania
+North Korea,2010,5.7,Asia
+North Korea,2011,5.9,Asia
+North Korea,2012,6.1,Asia
+North Korea,2013,6.4,Asia
+North Korea,2014,6.6,Asia
+North Macedonia,2010,21.1,Europe
+North Macedonia,2011,21.5,Europe
+North Macedonia,2012,21.9,Europe
+North Macedonia,2013,22.4,Europe
+North Macedonia,2014,22.9,Europe
+Norway,2010,22,Europe
+Norway,2011,22.5,Europe
+Norway,2012,23,Europe
+Norway,2013,23.5,Europe
+Norway,2014,24,Europe
+Oman,2010,19.7,Asia
+Oman,2011,19.9,Asia
+Oman,2012,20.2,Asia
+Oman,2013,20.6,Asia
+Oman,2014,21.1,Asia
+Pakistan,2010,5.7,Asia
+Pakistan,2011,6,Asia
+Pakistan,2012,6.3,Asia
+Pakistan,2013,6.6,Asia
+Pakistan,2014,7,Asia
+Palau,2010,51.1,Oceania
+Palau,2011,51.9,Oceania
+Palau,2012,52.5,Oceania
+Palau,2013,53.1,Oceania
+Palau,2014,53.7,Oceania
+Panama,2010,19,North America
+Panama,2011,19.6,North America
+Panama,2012,20.2,North America
+Panama,2013,20.8,North America
+Panama,2014,21.3,North America
+Papua New Guinea,2010,16,Oceania
+Papua New Guinea,2011,16.6,Oceania
+Papua New Guinea,2012,17.1,Oceania
+Papua New Guinea,2013,17.7,Oceania
+Papua New Guinea,2014,18.2,Oceania
+Paraguay,2010,15.7,South America
+Paraguay,2011,16.2,South America
+Paraguay,2012,16.7,South America
+Paraguay,2013,17.3,South America
+Paraguay,2014,17.8,South America
+Peru,2010,16.3,South America
+Peru,2011,16.7,South America
+Peru,2012,17.2,South America
+Peru,2013,17.7,South America
+Peru,2014,18.1,South America
+Philippines,2010,4.6,Asia
+Philippines,2011,4.8,Asia
+Philippines,2012,5,Asia
+Philippines,2013,5.2,Asia
+Philippines,2014,5.5,Asia
+Poland,2010,22.5,Europe
+Poland,2011,22.9,Europe
+Poland,2012,23.4,Europe
+Poland,2013,24,Europe
+Poland,2014,24.5,Europe
+Portugal,2010,19.9,Europe
+Portugal,2011,20.4,Europe
+Portugal,2012,21,Europe
+Portugal,2013,21.5,Europe
+Portugal,2014,22.1,Europe
+Qatar,2010,29.5,Asia
+Qatar,2011,30,Asia
+Qatar,2012,30.6,Asia
+Qatar,2013,31.3,Asia
+Qatar,2014,32,Asia
+Romania,2010,21,Europe
+Romania,2011,21.5,Europe
+Romania,2012,22.1,Europe
+Romania,2013,22.7,Europe
+Romania,2014,23.3,Europe
+Russia,2010,23.2,Europe
+Russia,2011,23.5,Europe
+Russia,2012,23.9,Europe
+Russia,2013,24.4,Europe
+Russia,2014,24.8,Europe
+Rwanda,2010,3.3,Africa
+Rwanda,2011,3.5,Africa
+Rwanda,2012,3.8,Africa
+Rwanda,2013,4,Africa
+Rwanda,2014,4.3,Africa
+Saint Kitts and Nevis,2010,19.1,North America
+Saint Kitts and Nevis,2011,19.7,North America
+Saint Kitts and Nevis,2012,20.4,North America
+Saint Kitts and Nevis,2013,21,North America
+Saint Kitts and Nevis,2014,21.7,North America
+Saint Lucia,2010,16.3,North America
+Saint Lucia,2011,16.9,North America
+Saint Lucia,2012,17.4,North America
+Saint Lucia,2013,17.9,North America
+Saint Lucia,2014,18.5,North America
+Saint Vincent and the Grenadines,2010,19.4,North America
+Saint Vincent and the Grenadines,2011,20.1,North America
+Saint Vincent and the Grenadines,2012,20.8,North America
+Saint Vincent and the Grenadines,2013,21.5,North America
+Saint Vincent and the Grenadines,2014,22.3,North America
+Samoa,2010,41.7,Oceania
+Samoa,2011,42.3,Oceania
+Samoa,2012,42.9,Oceania
+Samoa,2013,43.6,Oceania
+Samoa,2014,44.2,Oceania
+Sao Tome and Principe,2010,8,Africa
+Sao Tome and Principe,2011,8.4,Africa
+Sao Tome and Principe,2012,8.9,Africa
+Sao Tome and Principe,2013,9.3,Africa
+Sao Tome and Principe,2014,9.7,Africa
+Saudi Arabia,2010,30,Asia
+Saudi Arabia,2011,30.8,Asia
+Saudi Arabia,2012,31.6,Asia
+Saudi Arabia,2013,32.4,Asia
+Saudi Arabia,2014,33.3,Asia
+Senegal,2010,5.7,Africa
+Senegal,2011,6,Africa
+Senegal,2012,6.2,Africa
+Senegal,2013,6.5,Africa
+Senegal,2014,6.8,Africa
+Serbia,2010,20.6,Europe
+Serbia,2011,21.1,Europe
+Serbia,2012,21.6,Europe
+Serbia,2013,22,Europe
+Serbia,2014,22.5,Europe
+Seychelles,2010,11.7,Africa
+Seychelles,2011,12.1,Africa
+Seychelles,2012,12.5,Africa
+Seychelles,2013,12.9,Africa
+Seychelles,2014,13.4,Africa
+Sierra Leone,2010,5.8,Africa
+Sierra Leone,2011,6,Africa
+Sierra Leone,2012,6.3,Africa
+Sierra Leone,2013,6.6,Africa
+Sierra Leone,2014,6.9,Africa
+Singapore,2010,5.8,Asia
+Singapore,2011,5.9,Asia
+Singapore,2012,6.1,Asia
+Singapore,2013,6.2,Asia
+Singapore,2014,6.3,Asia
+Slovakia,2010,19.5,Europe
+Slovakia,2011,20,Europe
+Slovakia,2012,20.4,Europe
+Slovakia,2013,20.9,Europe
+Slovakia,2014,21.4,Europe
+Slovenia,2010,19.8,Europe
+Slovenia,2011,20.2,Europe
+Slovenia,2012,20.6,Europe
+Slovenia,2013,21.1,Europe
+Slovenia,2014,21.6,Europe
+Solomon Islands,2010,16.7,Oceania
+Solomon Islands,2011,17.3,Oceania
+Solomon Islands,2012,17.9,Oceania
+Solomon Islands,2013,18.5,Oceania
+Solomon Islands,2014,19.2,Oceania
+Somalia,2010,5.4,Africa
+Somalia,2011,5.6,Africa
+Somalia,2012,5.9,Africa
+Somalia,2013,6.1,Africa
+Somalia,2014,6.3,Africa
+South Africa,2010,23.3,Africa
+South Africa,2011,23.9,Africa
+South Africa,2012,24.5,Africa
+South Africa,2013,25.1,Africa
+South Africa,2014,25.8,Africa
+South Korea,2010,4.1,Asia
+South Korea,2011,4.3,Asia
+South Korea,2012,4.4,Asia
+South Korea,2013,4.5,Asia
+South Korea,2014,4.6,Asia
+Spain,2010,24,Europe
+Spain,2011,24.5,Europe
+Spain,2012,25,Europe
+Spain,2013,25.5,Europe
+Spain,2014,26.1,Europe
+Sri Lanka,2010,3.8,Asia
+Sri Lanka,2011,4,Asia
+Sri Lanka,2012,4.3,Asia
+Sri Lanka,2013,4.6,Asia
+Sri Lanka,2014,4.8,Asia
+Sudan,2010,5.6,Africa
+Sudan,2011,5.3,Africa
+Sudan,2012,5.6,Africa
+Sudan,2013,5,Africa
+Sudan,2014,5.2,Africa
+Suriname,2010,23,South America
+Suriname,2011,23.6,South America
+Suriname,2012,24.2,South America
+Suriname,2013,24.8,South America
+Suriname,2014,25.3,South America
+Sweden,2010,19.6,Europe
+Sweden,2011,20,Europe
+Sweden,2012,20.4,Europe
+Sweden,2013,20.8,Europe
+Sweden,2014,21.2,Europe
+Switzerland,2010,18.8,Europe
+Switzerland,2011,19.2,Europe
+Switzerland,2012,19.6,Europe
+Switzerland,2013,19.9,Europe
+Switzerland,2014,20.4,Europe
+Syria,2010,21.2,Asia
+Syria,2011,21.9,Asia
+Syria,2012,22.7,Asia
+Syria,2013,23.5,Asia
+Syria,2014,24.3,Asia
+Tajikistan,2010,9.5,Asia
+Tajikistan,2011,10,Asia
+Tajikistan,2012,10.4,Asia
+Tajikistan,2013,10.9,Asia
+Tajikistan,2014,11.4,Asia
+Tanzania,2010,5.2,Africa
+Tanzania,2011,5.5,Africa
+Tanzania,2012,5.8,Africa
+Tanzania,2013,6.1,Africa
+Tanzania,2014,6.4,Africa
+Thailand,2010,7.3,Asia
+Thailand,2011,7.9,Asia
+Thailand,2012,8.4,Asia
+Thailand,2013,9,Asia
+Thailand,2014,9.5,Asia
+Togo,2010,5.4,Africa
+Togo,2011,5.6,Africa
+Togo,2012,5.9,Africa
+Togo,2013,6.2,Africa
+Togo,2014,6.5,Africa
+Tonga,2010,41.9,Oceania
+Tonga,2011,42.6,Oceania
+Tonga,2012,43.3,Oceania
+Tonga,2013,44,Oceania
+Tonga,2014,44.6,Oceania
+Trinidad and Tobago,2010,15.4,North America
+Trinidad and Tobago,2011,16.1,North America
+Trinidad and Tobago,2012,16.7,North America
+Trinidad and Tobago,2013,17.4,North America
+Trinidad and Tobago,2014,18.2,North America
+Tunisia,2010,22.7,Africa
+Tunisia,2011,23.4,Africa
+Tunisia,2012,24.1,Africa
+Tunisia,2013,24.9,Africa
+Tunisia,2014,25.7,Africa
+Turkey,2010,27.4,Asia
+Turkey,2011,28.2,Asia
+Turkey,2012,29,Asia
+Turkey,2013,29.8,Asia
+Turkey,2014,30.6,Asia
+Turkmenistan,2010,13.8,Asia
+Turkmenistan,2011,14.3,Asia
+Turkmenistan,2012,14.9,Asia
+Turkmenistan,2013,15.5,Asia
+Turkmenistan,2014,16.1,Asia
+Tuvalu,2010,46.1,Oceania
+Tuvalu,2011,47,Oceania
+Tuvalu,2012,47.8,Oceania
+Tuvalu,2013,48.6,Oceania
+Tuvalu,2014,49.4,Oceania
+Uganda,2010,3,Africa
+Uganda,2011,3.2,Africa
+Uganda,2012,3.4,Africa
+Uganda,2013,3.5,Africa
+Uganda,2014,3.7,Africa
+Ukraine,2010,23.3,Europe
+Ukraine,2011,23.7,Europe
+Ukraine,2012,24.2,Europe
+Ukraine,2013,24.6,Europe
+Ukraine,2014,25.1,Europe
+United Arab Emirates,2010,22.5,Asia
+United Arab Emirates,2011,23.4,Asia
+United Arab Emirates,2012,24.5,Asia
+United Arab Emirates,2013,25.8,Asia
+United Arab Emirates,2014,27.2,Asia
+United Kingdom,2010,25.7,Europe
+United Kingdom,2011,26.3,Europe
+United Kingdom,2012,26.9,Europe
+United Kingdom,2013,27.5,Europe
+United Kingdom,2014,28.2,Europe
+United States of America,2010,33.4,North America
+United States of America,2011,34,North America
+United States of America,2012,34.7,North America
+United States of America,2013,35.4,North America
+United States of America,2014,36,North America
+Uruguay,2010,25.9,South America
+Uruguay,2011,26.4,South America
+Uruguay,2012,26.8,South America
+Uruguay,2013,27.3,South America
+Uruguay,2014,27.8,South America
+Uzbekistan,2010,11.9,Asia
+Uzbekistan,2011,12.4,Asia
+Uzbekistan,2012,12.9,Asia
+Uzbekistan,2013,13.5,Asia
+Uzbekistan,2014,14.1,Asia
+Vanuatu,2010,19.4,Oceania
+Vanuatu,2011,20,Oceania
+Vanuatu,2012,20.7,Oceania
+Vanuatu,2013,21.4,Oceania
+Vanuatu,2014,22.1,Oceania
+Venezuela,2010,22.4,South America
+Venezuela,2011,22.9,South America
+Venezuela,2012,23.3,South America
+Venezuela,2013,23.8,South America
+Venezuela,2014,24.3,South America
+Vietnam,2010,1.3,Asia
+Vietnam,2011,1.4,Asia
+Vietnam,2012,1.5,Asia
+Vietnam,2013,1.6,Asia
+Vietnam,2014,1.8,Asia
+Yemen,2010,10.8,Asia
+Yemen,2011,11.3,Asia
+Yemen,2012,11.8,Asia
+Yemen,2013,12.3,Asia
+Yemen,2014,12.9,Asia
+Zambia,2010,4.9,Africa
+Zambia,2011,5.2,Africa
+Zambia,2012,5.4,Africa
+Zambia,2013,5.7,Africa
+Zambia,2014,6,Africa
+Zimbabwe,2010,10.6,Africa
+Zimbabwe,2011,10.8,Africa
+Zimbabwe,2012,11.1,Africa
+Zimbabwe,2013,11.3,Africa
+Zimbabwe,2014,11.6,Africa
