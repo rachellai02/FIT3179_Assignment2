@@ -15,16 +15,17 @@
                         "type": "nominal",
                         "scale": {
                             "domain": [
-                                "High Systolic Blood Pressure",
-                                "Smoking",
-                                "High Fasting Plasma Glucose",
                                 "Air Pollution",
-                                "Obesity", 
-                                "High Ldl Cholesterol",
-                                "Ambient Particulate Matter Pollution",
                                 "Alcohol Use",
+                                "Ambient Particulate Matter Pollution",
+                                "Diet High In Sodium",
+                                "High Fasting Plasma Glucose",
+                                "High Ldl Cholesterol",
+                                "High Systolic Blood Pressure",
                                 "Household Air Pollution From Solid Fuels",
-                                "Diet High In Sodium"
+                                "Low Birth Weight",
+                                "Obesity",
+                                "Smoking"
                             ]
                         }
                     },
@@ -87,16 +88,17 @@
                         "field": "Death_cause",
                         "scale": {
                             "domain": [
-                                "High Systolic Blood Pressure",
-                                "Smoking",
-                                "High Fasting Plasma Glucose",
                                 "Air Pollution",
-                                "Obesity", 
-                                "High Ldl Cholesterol",
-                                "Ambient Particulate Matter Pollution",
                                 "Alcohol Use",
+                                "Ambient Particulate Matter Pollution",
+                                "Diet High In Sodium",
+                                "High Fasting Plasma Glucose",
+                                "High Ldl Cholesterol",
+                                "High Systolic Blood Pressure",
                                 "Household Air Pollution From Solid Fuels",
-                                "Diet High In Sodium"
+                                "Low Birth Weight",
+                                "Obesity",
+                                "Smoking"
                             ]
                         }
                     },
