@@ -7,13 +7,14 @@
 	width: 800px;*/
 }
 
-/* Create a container for the charts */
+/* Updated CSS for flexbox layout */
 .chart-container {
-	display: flex; /* Use flexbox for layout */
-}
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	}
 
-/* Style each chart's container */
 .chart {
-	width: 50%; /* Each chart takes up 50% of the available width */
-	padding: 10px; /* Add some spacing between charts */
+flex: 1;
+margin: 10px;
 }
