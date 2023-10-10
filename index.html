@@ -13,13 +13,24 @@
 </head>
 <body>
 
-  <div id="ranking_line_chart"></div>
+  <div class="chart-container">
+    <!-- First Chart Container -->
+    <div class="chart" id="stacked_area_chart"></div>
+    
+    <!-- Second Chart Container -->
+    <div class="chart" id="ranking_line_chart"></div>
+  </div>
 
   <script type="text/javascript">
+    // Embed your charts here as you did before
+    var spec1 = "js/stacked_area_chart.vg.json";
+    vegaEmbed('#stacked_area_chart', spec1).then(function(result) {
+        // Access the Vega view instance as result.view
+    }).catch(console.error);
 
-    var spec1 = "js/ranking_line_chart.vg.json";
-    vegaEmbed('#ranking_line_chart', spec1).then(function(result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    var spec2 = "js/ranking_line_chart.vg.json";
+    vegaEmbed('#ranking_line_chart', spec2).then(function(result) {
+        // Access the Vega view instance as result.view
     }).catch(console.error);
   </script>
 
@@ -27,18 +38,8 @@
 
   <script type="text/javascript">
 
-    var spec2 = "js/choropleth_map.vg.json";
-    vegaEmbed('#choropleth_map', spec2).then(function(result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);
-  </script>
-
-  <div id="stacked_area_chart"></div>
-
-  <script type="text/javascript">
-
-    var spec3 = "js/stacked_area_chart.vg.json";
-    vegaEmbed('#stacked_area_chart', spec3).then(function(result) {
+    var spec3 = "js/choropleth_map.vg.json";
+    vegaEmbed('#choropleth_map', spec3).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
   </script>

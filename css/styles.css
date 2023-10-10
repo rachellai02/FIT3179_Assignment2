@@ -6,3 +6,14 @@
 	/*height: 1000px;
 	width: 800px;*/
 }
+
+/* Create a container for the charts */
+.chart-container {
+	display: flex; /* Use flexbox for layout */
+}
+
+/* Style each chart's container */
+.chart {
+	width: 50%; /* Each chart takes up 50% of the available width */
+	padding: 10px; /* Add some spacing between charts */
+}

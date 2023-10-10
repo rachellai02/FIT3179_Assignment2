@@ -1,34 +1,4 @@
 Year,Death_cause,Number_of_deaths
-2010,High Systolic Blood Pressure,54288740.25
-2011,High Systolic Blood Pressure,55122456.64
-2012,High Systolic Blood Pressure,55964340.6
-2013,High Systolic Blood Pressure,56834679.81
-2014,High Systolic Blood Pressure,57647643.15
-2015,High Systolic Blood Pressure,58984966.69
-2016,High Systolic Blood Pressure,60092557.51
-2017,High Systolic Blood Pressure,61018809.88
-2018,High Systolic Blood Pressure,62424809.7
-2019,High Systolic Blood Pressure,63948234.75
-2010,Smoking,42565044.23
-2011,Smoking,42735508.31
-2012,Smoking,42972134.83
-2013,Smoking,43201307.37
-2014,Smoking,43434894.34
-2015,Smoking,43961540.66
-2016,Smoking,44438293.91
-2017,Smoking,44836389.71
-2018,Smoking,45585585.58
-2019,Smoking,46437194.68
-2010,High Fasting Plasma Glucose,30165002.03
-2011,High Fasting Plasma Glucose,30855340.19
-2012,High Fasting Plasma Glucose,31648305.2
-2013,High Fasting Plasma Glucose,32536307.73
-2014,High Fasting Plasma Glucose,33369547.79
-2015,High Fasting Plasma Glucose,34349768.22
-2016,High Fasting Plasma Glucose,35004541.2
-2017,High Fasting Plasma Glucose,35605580.18
-2018,High Fasting Plasma Glucose,36912157.45
-2019,High Fasting Plasma Glucose,38576632.29
 2010,Air Pollution,37550175.14
 2011,Air Pollution,37663443.6
 2012,Air Pollution,37702765.17
@@ -39,36 +9,6 @@ Year,Death_cause,Number_of_deaths
 2017,Air Pollution,37452918.61
 2018,Air Pollution,37703819.65
 2019,Air Pollution,38095790.81
-2010,Obesity,22699255.44
-2011,Obesity,23223840.7
-2012,Obesity,23897691.35
-2013,Obesity,24589127.87
-2014,Obesity,25320302.54
-2015,Obesity,26314711.51
-2016,Obesity,27126980.32
-2017,Obesity,27822411.9
-2018,Obesity,28753530.54
-2019,Obesity,29796820.16
-2010,High Ldl Cholesterol,22278788.7
-2011,High Ldl Cholesterol,22565378.74
-2012,High Ldl Cholesterol,22871068.96
-2013,High Ldl Cholesterol,23207217.94
-2014,High Ldl Cholesterol,23486689.4
-2015,High Ldl Cholesterol,24071905.09
-2016,High Ldl Cholesterol,24436557.14
-2017,High Ldl Cholesterol,24787017.08
-2018,High Ldl Cholesterol,25405585.74
-2019,High Ldl Cholesterol,26026490.04
-2010,Ambient Particulate Matter Pollution,19682609.49
-2011,Ambient Particulate Matter Pollution,20276227.23
-2012,Ambient Particulate Matter Pollution,20921729.01
-2013,Ambient Particulate Matter Pollution,21622079.04
-2014,Ambient Particulate Matter Pollution,22147989.74
-2015,Ambient Particulate Matter Pollution,22579557.82
-2016,Ambient Particulate Matter Pollution,22597787.11
-2017,Ambient Particulate Matter Pollution,22626892.23
-2018,Ambient Particulate Matter Pollution,23236445.35
-2019,Ambient Particulate Matter Pollution,24124835.39
 2010,Alcohol Use,13461279.34
 2011,Alcohol Use,13379699.98
 2012,Alcohol Use,13445329.22
@@ -79,16 +19,16 @@ Year,Death_cause,Number_of_deaths
 2017,Alcohol Use,14061603.34
 2018,Alcohol Use,14287941.48
 2019,Alcohol Use,14580016.38
-2010,Household Air Pollution From Solid Fuels,16787306.55
-2011,Household Air Pollution From Solid Fuels,16290212.91
-2012,Household Air Pollution From Solid Fuels,15736177.17
-2013,Household Air Pollution From Solid Fuels,15194524.1
-2014,Household Air Pollution From Solid Fuels,14629930.91
-2015,Household Air Pollution From Solid Fuels,14206327.46
-2016,Household Air Pollution From Solid Fuels,13882621.96
-2017,Household Air Pollution From Solid Fuels,13575289.94
-2018,Household Air Pollution From Solid Fuels,13192284.15
-2019,Household Air Pollution From Solid Fuels,12666346.52
+2010,Ambient Particulate Matter Pollution,19682609.49
+2011,Ambient Particulate Matter Pollution,20276227.23
+2012,Ambient Particulate Matter Pollution,20921729.01
+2013,Ambient Particulate Matter Pollution,21622079.04
+2014,Ambient Particulate Matter Pollution,22147989.74
+2015,Ambient Particulate Matter Pollution,22579557.82
+2016,Ambient Particulate Matter Pollution,22597787.11
+2017,Ambient Particulate Matter Pollution,22626892.23
+2018,Ambient Particulate Matter Pollution,23236445.35
+2019,Ambient Particulate Matter Pollution,24124835.39
 2010,Diet High In Sodium,9745663.839
 2011,Diet High In Sodium,9891531.506
 2012,Diet High In Sodium,10006634.35
@@ -99,3 +39,63 @@ Year,Death_cause,Number_of_deaths
 2017,Diet High In Sodium,10721679.58
 2018,Diet High In Sodium,10907319.71
 2019,Diet High In Sodium,11159564.72
+2010,High Body-Mass Index,22699255.44
+2011,High Body-Mass Index,23223840.7
+2012,High Body-Mass Index,23897691.35
+2013,High Body-Mass Index,24589127.87
+2014,High Body-Mass Index,25320302.54
+2015,High Body-Mass Index,26314711.51
+2016,High Body-Mass Index,27126980.32
+2017,High Body-Mass Index,27822411.9
+2018,High Body-Mass Index,28753530.54
+2019,High Body-Mass Index,29796820.16
+2010,High Fasting Plasma Glucose,30165002.03
+2011,High Fasting Plasma Glucose,30855340.19
+2012,High Fasting Plasma Glucose,31648305.2
+2013,High Fasting Plasma Glucose,32536307.73
+2014,High Fasting Plasma Glucose,33369547.79
+2015,High Fasting Plasma Glucose,34349768.22
+2016,High Fasting Plasma Glucose,35004541.2
+2017,High Fasting Plasma Glucose,35605580.18
+2018,High Fasting Plasma Glucose,36912157.45
+2019,High Fasting Plasma Glucose,38576632.29
+2010,High Ldl Cholesterol,22278788.7
+2011,High Ldl Cholesterol,22565378.74
+2012,High Ldl Cholesterol,22871068.96
+2013,High Ldl Cholesterol,23207217.94
+2014,High Ldl Cholesterol,23486689.4
+2015,High Ldl Cholesterol,24071905.09
+2016,High Ldl Cholesterol,24436557.14
+2017,High Ldl Cholesterol,24787017.08
+2018,High Ldl Cholesterol,25405585.74
+2019,High Ldl Cholesterol,26026490.04
+2010,High Systolic Blood Pressure,54288740.25
+2011,High Systolic Blood Pressure,55122456.64
+2012,High Systolic Blood Pressure,55964340.6
+2013,High Systolic Blood Pressure,56834679.81
+2014,High Systolic Blood Pressure,57647643.15
+2015,High Systolic Blood Pressure,58984966.69
+2016,High Systolic Blood Pressure,60092557.51
+2017,High Systolic Blood Pressure,61018809.88
+2018,High Systolic Blood Pressure,62424809.7
+2019,High Systolic Blood Pressure,63948234.75
+2010,Household Air Pollution From Solid Fuels,16787306.55
+2011,Household Air Pollution From Solid Fuels,16290212.91
+2012,Household Air Pollution From Solid Fuels,15736177.17
+2013,Household Air Pollution From Solid Fuels,15194524.1
+2014,Household Air Pollution From Solid Fuels,14629930.91
+2015,Household Air Pollution From Solid Fuels,14206327.46
+2016,Household Air Pollution From Solid Fuels,13882621.96
+2017,Household Air Pollution From Solid Fuels,13575289.94
+2018,Household Air Pollution From Solid Fuels,13192284.15
+2019,Household Air Pollution From Solid Fuels,12666346.52
+2010,Smoking,42565044.23
+2011,Smoking,42735508.31
+2012,Smoking,42972134.83
+2013,Smoking,43201307.37
+2014,Smoking,43434894.34
+2015,Smoking,43961540.66
+2016,Smoking,44438293.91
+2017,Smoking,44836389.71
+2018,Smoking,45585585.58
+2019,Smoking,46437194.68
