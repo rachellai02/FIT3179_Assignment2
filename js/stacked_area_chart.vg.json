@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "vconcat": [
         {
-            "title": "Number of Deaths by Death Causes in 2010-2019",
+            "title": "Number of Deaths by Death Causes in 2015-2019",
             "data": {
                 "url":"https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/top11-number-of-deaths-by-risk-factor(cleaned).csv"
             },
@@ -78,7 +78,8 @@
             ]
         },
         {
-            "title": "Total Number of Deaths by Death Causes by Year",
+            "title": ["Total Number of Deaths by Death Causes by Year",
+        "(Brush over the stacked area chart above)"],
             "data": {
                 "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/top11-number-of-deaths-by-risk-factor(cleaned).csv"
             },
