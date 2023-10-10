@@ -1,7 +1,19 @@
-Continent,Share of overweight adults,Share of obese adults,Share of others
-Africa,22.67,10.22,67.11
-Asia,28.52,15.4,56.08
-Europe,33.76,24.35,41.89
-North America,32.64,23.65,43.71
-Oceania,32.23,40.45,27.32
-South America,35.1,22.6,42.3
+Continent,Status,Percentage
+Africa,Overweight,22.67
+Africa,Obese,10.22
+Africa,Others,67.11
+Asia,Overweight,28.52
+Asia,Obese,15.4
+Asia,Others,56.08
+Europe,Overweight,33.76
+Europe,Obese,24.35
+Europe,Others,41.89
+North America,Overweight,32.64
+North America,Obese,23.65
+North America,Others,43.71
+Oceania,Overweight,32.23
+Oceania,Obese,40.45
+Oceania,Others,27.32
+South America,Overweight,35.1
+South America,Obese,22.6
+South America,Others,42.3
