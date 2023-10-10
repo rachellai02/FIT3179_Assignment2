@@ -48,7 +48,8 @@
                 "tooltip": [
                     {
                         "field": "Number_of_deaths",
-                        "type": "quantitative"
+                        "type": "quantitative",
+                        "format": ",d"
                     },
                     {
                         "field": "Death_cause",
@@ -61,7 +62,7 @@
                     }
                 ]
             },
-            "width": 300,
+            "width": 400,
             "height": 300,
             "mark": "area",
             "params": [
@@ -117,7 +118,8 @@
                 "tooltip": [
                     {
                         "field": "Number_of_deaths",
-                        "type": "quantitative"
+                        "type": "quantitative",
+                        "format": ",d"
                     },
                     {
                         "field": "Death_cause",
@@ -130,7 +132,7 @@
                     }
                 ]
             },
-            "width": 300,
+            "width": 400,
             "height": 100,
             "mark": "bar",
             "params": [

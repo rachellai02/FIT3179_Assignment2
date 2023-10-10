@@ -1,0 +1,141 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 500,
+  "title": "Share of adult men with obesity vs daily supply of calories in 2014",
+  "data": {
+    "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/(continent)share-of-adult-men-overweight-or-obese-vs-daily-supply-of-calories-2014.csv"
+  },
+  "params": [
+    {
+      "name": "Continent_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "North America",
+          "South America",
+          "Europe",
+          "Africa",
+          "Asia",
+          "Oceania"
+        ],
+        "labels": [
+          "Show All",
+          "North America",
+          "South America",
+          "Europe",
+          "Africa",
+          "Asia",
+          "Oceania"
+        ],
+        "name": "Continent Selection: "
+      }
+    },
+    {
+      "name": "Population_Above",
+      "value": 0,
+      "bind": {
+        "input": "range",
+        "min": 0,
+        "max": 100000000,
+        "step": 1000000,
+        "name": "Minimum Population: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "Continent_selection == null || datum.Continent == Continent_selection"
+    },
+    {
+      "filter": "datum.Population >= Population_Above"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "Daily caloric supply",
+      "type": "quantitative",
+      "title": "Daily Caloric Supply (kcal)",
+      "axis": {"tickCount": 7}
+    },
+    "y": {
+      "field": "Obese",
+      "type": "quantitative",
+      "title": "Share of obese adult men (%)",
+      "axis": {"tickCount": 6}
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "middle",
+        "dx": -12,
+        "fontSize": 11.5,
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "text": {"field": "Entity", "type": "nominal"},
+        "color": {"value": "black"},
+        "opacity": {
+        "condition": {
+          "test": "datum['Population'] > 100000000",
+          "value": 1
+        },
+  "value": 0
+}
+
+      }
+    },
+    {
+      "mark": "circle",
+      "encoding": {
+        "size": {
+          "field": "Population",
+          "type": "quantitative",
+          "scale": {
+            "type": "threshold",
+            "domain": [1000000, 10000000, 50000000, 100000000, 500000000, 1000000000, 5000000000],
+            "range": [10, 50, 100, 150, 200, 300, 400, 500]
+          },
+          "legend": {"format": ".1s"}
+        },
+        "color": {
+          "field": "Continent",
+          "type": "nominal"
+        },
+        "opacity": {"value": 0.7},
+        "tooltip": [
+          {
+            "field": "Entity", 
+            "type": "nominal",
+            "title": "Country"
+          },
+          {
+            "field": "Daily caloric supply", 
+            "type": "quantitative",
+            "title": "Daily Caloric Supply (kcal)", 
+            "format": ",.0f" 
+          },
+          {
+            "field": "Obese", 
+            "type": "quantitative",
+            "title": "Share of obese adult men (%)"
+          },
+          {
+            "field": "Population", 
+            "type": "quantitative",
+            "format": ",.0f" 
+          },
+          {
+            "field": "Continent", 
+            "type": "nominal"
+          }
+        ]
+        
+      }
+    }
+  ]
+}

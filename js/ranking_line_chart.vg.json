@@ -35,7 +35,7 @@
     },
     "tooltip": [
       {"field": "Death_cause", "type": "nominal", "title": "Death Cause"},
-      {"field": "Number_of_deaths", "type": "quantitative", "title": "Number of Deaths"},
+      {"field": "Number_of_deaths", "type": "quantitative", "title": "Number of Deaths", "format": ",d"},
       {"field": "Year", "type": "ordinal", "title": "Year"},
       {"field": "Rank", "type": "quantitative", "title": "Rank"}
     ]
