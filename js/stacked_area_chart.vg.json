@@ -11,38 +11,20 @@
                     "condition": {
                         "param": "time_brush",
                         "title": "Death Causes",
-                        "field": "Death cause",
+                        "field": "Death_cause",
                         "type": "nominal",
                         "scale": {
                             "domain": [
                                 "High Systolic Blood Pressure",
-                                "Diet High In Sodium",
-                                "Diet Low In Whole Grains",
-                                "Alcohol Use",
-                                "Diet Low In Fruits",
-                                "Unsafe Water Source",
-                                "Secondhand Smoke",
-                                "Low Birth Weight",
-                                "Child Wasting",
-                                "Unsafe Sex",
-                                "Diet Low In Nuts And Seeds",
-                                "Household Air Pollution From Solid Fuels",
-                                "Diet Low In Vegetables",
                                 "Smoking",
                                 "High Fasting Plasma Glucose",
                                 "Air Pollution",
-                                "Obesity",
-                                "Unsafe Sanitation",
-                                "Drug Use",
-                                "Low Bone Mineral Density",
-                                "Vitamin A Deficiency",
-                                "Child Stunting",
-                                "Non-Exclusive Breastfeeding",
-                                "Iron Deficiency",
+                                "High Body-Mass Index",
+                                "High Ldl Cholesterol",
                                 "Ambient Particulate Matter Pollution",
-                                "Low Physical Activity",
-                                "No Access To Handwashing Facility",
-                                "High Ldl Cholesterol"
+                                "Alcohol Use",
+                                "Household Air Pollution From Solid Fuels",
+                                "Diet High In Sodium"
                             ],
                             "scheme": "category20c"
                         }
@@ -60,16 +42,16 @@
                 "y": {
                     "title": "Number of Deaths",
                     "aggregate": "sum",
-                    "field": "Number of deaths",
+                    "field": "Number_of_deaths",
                     "type": "quantitative"
                 },
                 "tooltip": [
                     {
-                        "field": "Number of deaths",
+                        "field": "Number_of_deaths",
                         "type": "quantitative"
                     },
                     {
-                        "field": "Death cause",
+                        "field": "Death_cause",
                         "type": "nominal"
                     },
                     {
@@ -103,37 +85,19 @@
                 "color": {
                     "condition": {
                         "param": "click",
-                        "field": "Death cause",
+                        "field": "Death_cause",
                         "scale": {
                             "domain": [
                                 "High Systolic Blood Pressure",
-                                "Diet High In Sodium",
-                                "Diet Low In Whole Grains",
-                                "Alcohol Use",
-                                "Diet Low In Fruits",
-                                "Unsafe Water Source",
-                                "Secondhand Smoke",
-                                "Low Birth Weight",
-                                "Child Wasting",
-                                "Unsafe Sex",
-                                "Diet Low In Nuts And Seeds",
-                                "Household Air Pollution From Solid Fuels",
-                                "Diet Low In Vegetables",
                                 "Smoking",
                                 "High Fasting Plasma Glucose",
                                 "Air Pollution",
-                                "Obesity",
-                                "Unsafe Sanitation",
-                                "Drug Use",
-                                "Low Bone Mineral Density",
-                                "Vitamin A Deficiency",
-                                "Child Stunting",
-                                "Non-Exclusive Breastfeeding",
-                                "Iron Deficiency",
+                                "High Body-Mass Index",
+                                "High Ldl Cholesterol",
                                 "Ambient Particulate Matter Pollution",
-                                "Low Physical Activity",
-                                "No Access To Handwashing Facility",
-                                "High Ldl Cholesterol"
+                                "Alcohol Use",
+                                "Household Air Pollution From Solid Fuels",
+                                "Diet High In Sodium"
                             ],
                             "scheme": "category20c"
                         }
@@ -141,22 +105,22 @@
                     "value": "lightgray"
                 },
                 "x": {
-                    "field": "Number of deaths",
+                    "field": "Number_of_deaths",
                     "type": "quantitative",
                     "title": "Number of Deaths"
                 },
                 "y": {
                     "title": "Death Causes",
-                    "field": "Death cause",
+                    "field": "Death_cause",
                     "type": "nominal"
                 },
                 "tooltip": [
                     {
-                        "field": "Number of deaths",
+                        "field": "Number_of_deaths",
                         "type": "quantitative"
                     },
                     {
-                        "field": "Death cause",
+                        "field": "Death_cause",
                         "type": "nominal"
                     },
                     {
