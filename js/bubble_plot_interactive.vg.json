@@ -4,7 +4,7 @@
   "height": 500,
   "title": "Share of adult men with obesity vs daily supply of calories in 2014",
   "data": {
-    "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/(continent)share-of-adult-men-overweight-or-obese-vs-daily-supply-of-calories-2014.csv"
+    "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/continent-share-of-adult-men-overweight-or-obese-vs-daily-supply-of-calories-2014.csv"
   },
   "params": [
     {
@@ -42,6 +42,16 @@
         "step": 1000000,
         "name": "Minimum Population: "
       }
+    },
+    {
+      "name": "Year_selection",
+      "bind": {
+        "input": "range",
+        "min": 2010,
+        "max": 2014,
+        "step": 1,
+        "name": "Year Selection: "
+      }
     }
   ],
   "transform": [
@@ -50,6 +60,9 @@
     },
     {
       "filter": "datum.Population >= Population_Above"
+    },
+    {
+      "filter": "Year_selection == null || datum.Year == Year_selection"
     }
   ],
   "encoding": {
@@ -80,13 +93,12 @@
         "text": {"field": "Entity", "type": "nominal"},
         "color": {"value": "black"},
         "opacity": {
-        "condition": {
-          "test": "datum['Population'] > 100000000",
-          "value": 1
-        },
-  "value": 0
-}
-
+          "condition": {
+            "test": "datum['Population'] > 100000000",
+            "value": 1
+          },
+          "value": 0
+        }
       }
     },
     {
@@ -109,32 +121,31 @@
         "opacity": {"value": 0.7},
         "tooltip": [
           {
-            "field": "Entity", 
+            "field": "Entity",
             "type": "nominal",
             "title": "Country"
           },
           {
-            "field": "Daily caloric supply", 
+            "field": "Daily caloric supply",
             "type": "quantitative",
-            "title": "Daily Caloric Supply (kcal)", 
-            "format": ",.0f" 
+            "title": "Daily Caloric Supply (kcal)",
+            "format": ",.0f"
           },
           {
-            "field": "Obese", 
+            "field": "Obese",
             "type": "quantitative",
             "title": "Share of obese adult men (%)"
           },
           {
-            "field": "Population", 
+            "field": "Population",
             "type": "quantitative",
-            "format": ",.0f" 
+            "format": ",.0f"
           },
           {
-            "field": "Continent", 
+            "field": "Continent",
             "type": "nominal"
           }
         ]
-        
       }
     }
   ]
