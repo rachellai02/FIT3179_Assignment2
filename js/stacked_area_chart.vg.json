@@ -1,0 +1,192 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "vconcat": [
+        {
+            "title": "Use this area chart to brush through different years",
+            "data": {
+                "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/agg-number-of-deaths-by-risk-factor.csv"
+            },
+            "encoding": {
+                "color": {
+                    "condition": {
+                        "param": "time_brush",
+                        "title": "Death Causes",
+                        "field": "Death cause",
+                        "type": "nominal",
+                        "scale": {
+                            "domain": [
+                                "High Systolic Blood Pressure",
+                                "Diet High In Sodium",
+                                "Diet Low In Whole Grains",
+                                "Alcohol Use",
+                                "Diet Low In Fruits",
+                                "Unsafe Water Source",
+                                "Secondhand Smoke",
+                                "Low Birth Weight",
+                                "Child Wasting",
+                                "Unsafe Sex",
+                                "Diet Low In Nuts And Seeds",
+                                "Household Air Pollution From Solid Fuels",
+                                "Diet Low In Vegetables",
+                                "Smoking",
+                                "High Fasting Plasma Glucose",
+                                "Air Pollution",
+                                "Obesity",
+                                "Unsafe Sanitation",
+                                "Drug Use",
+                                "Low Bone Mineral Density",
+                                "Vitamin A Deficiency",
+                                "Child Stunting",
+                                "Non-Exclusive Breastfeeding",
+                                "Iron Deficiency",
+                                "Ambient Particulate Matter Pollution",
+                                "Low Physical Activity",
+                                "No Access To Handwashing Facility",
+                                "High Ldl Cholesterol"
+                            ],
+                            "scheme": "category20c"
+                        }
+                    },
+                    "value": "lightgray"
+                },
+                "x": {
+                    "field": "Year",
+                    "timeUnit": "yearmonth",
+                    "title": "Year",
+                    "axis": {
+                        "format": "%Y"
+                    }
+                },
+                "y": {
+                    "title": "Number of Deaths",
+                    "aggregate": "sum",
+                    "field": "Number of deaths",
+                    "type": "quantitative"
+                },
+                "tooltip": [
+                    {
+                        "field": "Number of deaths",
+                        "type": "quantitative"
+                    },
+                    {
+                        "field": "Death cause",
+                        "type": "nominal"
+                    },
+                    {
+                        "field": "Year",
+                        "timeUnit": "year",
+                        "title": "Year"
+                    }
+                ]
+            },
+            "width": 585,
+            "height": 400,
+            "mark": "area",
+            "params": [
+                {
+                    "name": "time_brush",
+                    "select": {
+                        "type": "interval",
+                        "encodings": [
+                            "x"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Use this bar chart to highlight different causes",
+            "data": {
+                "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/agg-number-of-deaths-by-risk-factor.csv"
+            },
+            "encoding": {
+                "color": {
+                    "condition": {
+                        "param": "click",
+                        "field": "Death cause",
+                        "scale": {
+                            "domain": [
+                                "High Systolic Blood Pressure",
+                                "Diet High In Sodium",
+                                "Diet Low In Whole Grains",
+                                "Alcohol Use",
+                                "Diet Low In Fruits",
+                                "Unsafe Water Source",
+                                "Secondhand Smoke",
+                                "Low Birth Weight",
+                                "Child Wasting",
+                                "Unsafe Sex",
+                                "Diet Low In Nuts And Seeds",
+                                "Household Air Pollution From Solid Fuels",
+                                "Diet Low In Vegetables",
+                                "Smoking",
+                                "High Fasting Plasma Glucose",
+                                "Air Pollution",
+                                "Obesity",
+                                "Unsafe Sanitation",
+                                "Drug Use",
+                                "Low Bone Mineral Density",
+                                "Vitamin A Deficiency",
+                                "Child Stunting",
+                                "Non-Exclusive Breastfeeding",
+                                "Iron Deficiency",
+                                "Ambient Particulate Matter Pollution",
+                                "Low Physical Activity",
+                                "No Access To Handwashing Facility",
+                                "High Ldl Cholesterol"
+                            ],
+                            "scheme": "category20c"
+                        }
+                    },
+                    "value": "lightgray"
+                },
+                "x": {
+                    "field": "Number of deaths",
+                    "type": "quantitative",
+                    "title": "Number of Deaths"
+                },
+                "y": {
+                    "title": "Death Causes",
+                    "field": "Death cause",
+                    "type": "nominal"
+                },
+                "tooltip": [
+                    {
+                        "field": "Number of deaths",
+                        "type": "quantitative"
+                    },
+                    {
+                        "field": "Death cause",
+                        "type": "nominal"
+                    },
+                    {
+                        "field": "Year",
+                        "timeUnit": "year",
+                        "title": "Year"
+                    }
+                ]
+            },
+            "width": 585,
+            "height": 150,
+            "mark": "bar",
+            "params": [
+                {
+                    "name": "click",
+                    "select": {
+                        "type": "point",
+                        "encodings": [
+                            "color"
+                        ]
+                    }
+                }
+            ],
+            "transform": [
+                {
+                    "filter": {
+                        "param": "time_brush"
+                    }
+                }
+            ]
+        }
+    ]
+}
