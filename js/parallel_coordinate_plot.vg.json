@@ -37,19 +37,9 @@
                     "as": "max"
                 },
                 {
-                    "op": "q1",
-                    "field": "value",
-                    "as": "q1"
-                },
-                {
                     "op": "median",
                     "field": "value",
                     "as": "q2"
-                },
-                {
-                    "op": "q3",
-                    "field": "value",
-                    "as": "q3"
                 }
             ],
             "groupby": [
@@ -81,9 +71,33 @@
             "encoding": {
                 "color": {
                     "type": "nominal",
-                    "field": "Continent",
+                    "field": "Continent"
+                },
+                "strokeDash": {
+                    "field": "Gender",
+                    "type": "nominal",
+                    "scale": {
+                        "domain": [
+                            "Male",
+                            "Female"
+                        ],
+                        "range": [
+                            [
+                                1,
+                                0
+                            ],
+                            [
+                                4,
+                                2
+                            ]
+                        ]
+                    },
                     "legend": {
-                        "symbolOpacity": 1
+                        "title": "Gender",
+                        "values": [
+                            "Male",
+                            "Female"
+                        ]
                     }
                 },
                 "detail": {
@@ -112,6 +126,11 @@
                         "type": "quantitative",
                         "field": "value",
                         "title": "BMI"
+                    },
+                    {
+                        "type": "nominal",
+                        "field": "Gender",
+                        "title": "Gender"
                     }
                 ]
             }
@@ -156,40 +175,7 @@
                     "field": "key"
                 },
                 "y": {
-                    "value": 100
-                }
-            },
-            "layer": [
-                {
-                    "mark": {
-                        "type": "text",
-                        "style": "label"
-                    },
-                    "encoding": {
-                        "text": {
-                            "field": "q1",
-                            "type": "quantitative"
-                        }
-                    }
-                },
-                {
-                    "mark": {
-                        "type": "tick",
-                        "style": "tick",
-                        "size": 8,
-                        "color": "#ccc"
-                    }
-                }
-            ]
-        },
-        {
-            "encoding": {
-                "x": {
-                    "type": "nominal",
-                    "field": "key"
-                },
-                "y": {
-                    "value": 200
+                    "value": 250
                 }
             },
             "layer": [
@@ -222,40 +208,7 @@
                     "field": "key"
                 },
                 "y": {
-                    "value": 300
-                }
-            },
-            "layer": [
-                {
-                    "mark": {
-                        "type": "text",
-                        "style": "label"
-                    },
-                    "encoding": {
-                        "text": {
-                            "field": "q3",
-                            "type": "quantitative"
-                        }
-                    }
-                },
-                {
-                    "mark": {
-                        "type": "tick",
-                        "style": "tick",
-                        "size": 8,
-                        "color": "#ccc"
-                    }
-                }
-            ]
-        },
-        {
-            "encoding": {
-                "x": {
-                    "type": "nominal",
-                    "field": "key"
-                },
-                "y": {
-                    "value": 400
+                    "value": 500
                 }
             },
             "layer": [
