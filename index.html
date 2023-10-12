@@ -18,21 +18,44 @@
       World Obesity Insights
     </h1>
 
+    <div class="description-paragraph">
+        "A paragraph of description (to be modified) <br>
+        ... <br>
+        ..."
+    </div>
+
+    <h2>
+      What are the Risk Factors that Causes Highest Number of Deaths?
+    </h2>
+
     <div class="pure-g section">
       <div class="chart-container">
-        <!-- First Chart Container (60%) -->
-        <div class="chart" id="stacked_area_chart"></div>
         
-        <!-- Second Chart Container (40%) -->
-        <div class="chart" id="ranking_line_chart"></div>
+        <!-- Left Half: Stacked Area Chart -->
+        <div class="chart half-width" id="stacked_area_chart"></div>
+        
+        <!-- Right Half: Ranking Line Chart and Paragraph -->
+        <div class="right-half">
+          
+          <!-- Top: Ranking Line Chart -->
+          <div class="chart" id="ranking_line_chart"></div>
+    
+          <!-- Bottom: Paragraph -->
+          <div class="description-paragraph">
+            "A paragraph of description (to be modified) <br>
+            ... <br>
+            ..."
+          </div>
+    
+        </div>
       </div>
     </div>
     
-      <!-- Choropleth Map Chart Container -->
-      <div class="pure-g section">
-        <div id="choropleth_map" class="vis-container"></div>
-      </div>
-
+    <h2>
+      How Many People in the World has Obesity?
+    </h2>
+    
+    <div class="chart-description-container">
       <p style="text-align: center; font-weight: bold;">Share of Obese and Overweight Adults by Continents</p>
       <div class="legend pure-g section">
         <div class="legend-item">
@@ -47,51 +70,67 @@
           <span class="legend-color" style="background-color: gray;"></span>
           <span class="legend-text" style="color: gray;">Others</span>
         </div>
-      </div>      
+      </div>   
+    </div>
 
-      <div class="pure-g section">
-        <!-- First Donut Chart -->
-        <div class="donut-column">
-          <div id="donut_africa" class="donut"></div>
-        </div>
-        
-        <!-- Second Donut Chart -->
-        <div class="donut-column">
-          <div id="donut_asia" class="donut"></div>
-        </div>
+    <!-- Choropleth Map Chart Container -->
+    <div class="pure-g section">
+      <div id="choropleth_map" class="vis-container"></div>
+    </div>
+
+       
+
+    <div class="pure-g section">
+      <!-- First Donut Chart -->
+      <div class="donut-column">
+        <div id="donut_africa" class="donut"></div>
+      </div>
+      
+      <!-- Second Donut Chart -->
+      <div class="donut-column">
+        <div id="donut_asia" class="donut"></div>
+      </div>
+
+      <!-- Third Donut Chart -->
+      <div class="donut-column">
+        <div id="donut_europe" class="donut"></div>
+      </div>
+    </div>
+
+    <div class="pure-g section">
+      <!-- First Donut Chart -->
+      <div class="donut-column">
+        <div id="donut_oceania" class="donut"></div>
+      </div>
+      
+      <!-- Second Donut Chart -->
+      <div class="donut-column">
+        <div id="donut_north_america" class="donut"></div>
+      </div>
+
+      <!-- Third Donut Chart -->
+      <div class="donut-column">
+        <div id="donut_south_america" class="donut"></div>
+      </div>
+    </div>
+
+    <h2>
+      BMI of Men and Women from 2000 to 2016
+    </h2>
+
+    <!-- Parallel Coordinate Plot Container -->
+    <div class="pure-g section">
+      <div id="parallel_coordinate_plot" class="vis-container"></div>
+    </div>
+
+    <h2>
+      Does supply of calories impact in obesity?
+    </h2>
   
-        <!-- Third Donut Chart -->
-        <div class="donut-column">
-          <div id="donut_europe" class="donut"></div>
-        </div>
-      </div>
-
-      <div class="pure-g section">
-        <!-- First Donut Chart -->
-        <div class="donut-column">
-          <div id="donut_oceania" class="donut"></div>
-        </div>
-        
-        <!-- Second Donut Chart -->
-        <div class="donut-column">
-          <div id="donut_north_america" class="donut"></div>
-        </div>
-  
-        <!-- Third Donut Chart -->
-        <div class="donut-column">
-          <div id="donut_south_america" class="donut"></div>
-        </div>
-      </div>
-    
-      <!-- Bubble Plot Interactive Chart Container -->
-      <div class="pure-g section">
-        <div id="bubble_plot_interactive" class="vis-container"></div>
-      </div>
-
-      <!-- Parallel Coordinate Plot Container -->
-      <div class="pure-g section">
-        <div id="parallel_coordinate_plot" class="vis-container"></div>
-      </div>
+    <!-- Bubble Plot Interactive Chart Container -->
+    <div class="pure-g section">
+      <div id="bubble_plot_interactive" class="vis-container"></div>
+    </div>
   </div>
 
   
