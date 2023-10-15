@@ -111,13 +111,17 @@
           "scale": {
             "type": "threshold",
             "domain": [1000000, 10000000, 50000000, 100000000, 500000000, 1000000000, 5000000000],
-            "range": [10, 50, 100, 150, 200, 300, 400, 500]
+            "range": [50, 150, 300, 500, 750, 1100, 1500, 2000]
           },
           "legend": {"format": ".1s"}
         },
         "color": {
           "field": "Continent",
-          "type": "nominal"
+          "type": "nominal",
+          "scale": {
+            "domain": ["Africa", "Asia", "Europe", "North America", "Oceania", "South America", "World"],
+            "range": ["#1f77b4","#FF964F", "#C23B22", "#9467bd", "#FDE26C", "#17becf", "#7f7f7f"]
+          }
         },
         "opacity": {"value": 0.7},
         "tooltip": [
