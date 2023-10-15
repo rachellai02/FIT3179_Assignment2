@@ -8,19 +8,28 @@
             },
             "encoding": {
                 "color": {
-                  "condition": {
-                      "param": "time_brush",
-                      "title": "Death Causes",
-                      "field": "Death_cause",
-                      "type": "nominal",
-                      "sort": {
-                          "op": "sum",
-                          "field": "Number_of_deaths",
-                          "order": "descending"
-                      }
-                  },
-                  "value": "lightgray"
-              },
+                    "condition": {
+                        "param": "time_brush",
+                        "title": "Death Causes",
+                        "field": "Death_cause",
+                        "type": "nominal",
+                        "scale": {
+                            "domain": [
+                                "Air Pollution",
+                                "Alcohol Use",
+                                "Ambient Particulate Matter Pollution",
+                                "Diet High In Sodium",
+                                "High Fasting Plasma Glucose",
+                                "High Ldl Cholesterol",
+                                "High Systolic Blood Pressure",
+                                "Household Air Pollution From Solid Fuels",
+                                "Obesity",
+                                "Smoking"
+                            ]
+                        }
+                    },
+                    "value": "lightgray"
+                },
                 "x": {
                     "field": "Year",
                     "timeUnit": "yearmonth",
@@ -77,7 +86,21 @@
                 "color": {
                     "condition": {
                         "param": "click",
-                        "field": "Death_cause"
+                        "field": "Death_cause",
+                        "scale": {
+                            "domain": [
+                                "Air Pollution",
+                                "Alcohol Use",
+                                "Ambient Particulate Matter Pollution",
+                                "Diet High In Sodium",
+                                "High Fasting Plasma Glucose",
+                                "High Ldl Cholesterol",
+                                "High Systolic Blood Pressure",
+                                "Household Air Pollution From Solid Fuels",
+                                "Obesity",
+                                "Smoking"
+                            ]
+                        }
                     },
                     "value": "lightgray"
                 },
