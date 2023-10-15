@@ -36,9 +36,6 @@
         
         <!-- Right Half: Ranking Line Chart and Paragraph -->
         <div class="right-half">
-          
-          <!-- Top: Ranking Line Chart -->
-          <div class="chart" id="ranking_line_chart"></div>
     
           <!-- Bottom: Paragraph -->
           <div class="description-paragraph">
@@ -49,6 +46,15 @@
     
         </div>
       </div>
+    </div>
+
+    <h2>
+      What is BMI?
+    </h2>
+  
+    <!-- Bubble Plot Interactive Chart Container -->
+    <div class="pure-g section">
+      <div id="ranged_dot_plot" class="vis-container"></div>
     </div>
     
     <h2>
@@ -187,6 +193,11 @@
 
     var spec11 = "js/sankey_diagram.vg.json";
     vegaEmbed('#sankey_diagram', spec11).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    var spec12 = "js/ranged_dot_plot.vg.json";
+    vegaEmbed('#ranged_dot_plot', spec12).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
   </script>

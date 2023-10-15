@@ -1,0 +1,92 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 500,
+    "height": 300,
+    "title": "Average BMI values by gender for various continents",
+    "params": [
+      {
+        "name": "Year",
+        "value": 2016,
+        "bind": {
+          "input": "range",
+          "min": 2000,
+          "max": 2016,
+          "step": 4,
+          "name": "Year: "
+        }
+      }
+    ],
+    "data": {"url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/agg-continent-mean-bmi-in-adult-males-females.csv"},
+  
+    "transform": [
+      {
+        "calculate": "datum[Year+'']", 
+        "as": "Selected_Year_BMI"
+      },
+      {
+      "aggregate": [
+        {
+          "op": "mean",
+          "field": "Selected_Year_BMI", 
+          "as": "BMI"
+        }
+      ],
+      "groupby": ["Continent", "Gender"]
+    }
+    ],
+  
+    "encoding": {
+      "x": {
+        "field": "BMI",
+        "type": "quantitative",
+        "title": "Average BMI",
+        "scale": {
+        "domain": [20, 32]
+        }   
+      },
+      "y": {
+        "field": "Continent",
+        "type": "nominal",
+        "title": "Continent",
+        "axis": {
+          "offset": 5,
+          "ticks": false,
+          "minExtent": 70,
+          "domain": false
+        }
+      },
+      "color": {
+        "field": "Gender",
+        "type": "nominal",
+        "title": "Gender",
+        "scale": {
+          "domain": ["Male", "Female"],
+          "range": ["#1f77b4", "#ff7f0e"]
+        }
+      },
+      "tooltip": [
+        {"field": "BMI", "type": "quantitative", "title": "Average BMI (2016)"},
+        {"field": "Gender", "type": "nominal", "title": "Gender"}
+      ]
+    },
+    "layer":[
+      {
+        "mark": "line",
+        "encoding": {
+          "detail": {
+            "field": "Continent",
+            "type": "nominal"
+          },
+          "color": {"value": "#db646f"}
+        }
+      },
+      {
+      "mark": {
+          "type": "point",
+          "filled": true,
+          "size": 150
+        }
+      }
+    ]
+  }
+  

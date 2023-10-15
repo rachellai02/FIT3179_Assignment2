@@ -4,33 +4,23 @@
         {
             "title": "Number of Deaths by Death Causes in 2015-2019",
             "data": {
-                "url":"https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/top11-number-of-deaths-by-risk-factor(cleaned).csv"
+                "url":"https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/top10-number-of-deaths-by-risk-factor(cleaned).csv"
             },
             "encoding": {
                 "color": {
-                    "condition": {
-                        "param": "time_brush",
-                        "title": "Death Causes",
-                        "field": "Death_cause",
-                        "type": "nominal",
-                        "scale": {
-                            "domain": [
-                                "Air Pollution",
-                                "Alcohol Use",
-                                "Ambient Particulate Matter Pollution",
-                                "Diet High In Sodium",
-                                "High Fasting Plasma Glucose",
-                                "High Ldl Cholesterol",
-                                "High Systolic Blood Pressure",
-                                "Household Air Pollution From Solid Fuels",
-                                "Low Birth Weight",
-                                "Obesity",
-                                "Smoking"
-                            ]
-                        }
-                    },
-                    "value": "lightgray"
-                },
+                  "condition": {
+                      "param": "time_brush",
+                      "title": "Death Causes",
+                      "field": "Death_cause",
+                      "type": "nominal",
+                      "sort": {
+                          "op": "sum",
+                          "field": "Number_of_deaths",
+                          "order": "descending"
+                      }
+                  },
+                  "value": "lightgray"
+              },
                 "x": {
                     "field": "Year",
                     "timeUnit": "yearmonth",
@@ -81,28 +71,13 @@
             "title": ["Total Number of Deaths by Death Causes by Year",
         "(Brush over the stacked area chart above to select years)"],
             "data": {
-                "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/top11-number-of-deaths-by-risk-factor(cleaned).csv"
+                "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/top10-number-of-deaths-by-risk-factor(cleaned).csv"
             },
             "encoding": {
                 "color": {
                     "condition": {
                         "param": "click",
-                        "field": "Death_cause",
-                        "scale": {
-                            "domain": [
-                                "Air Pollution",
-                                "Alcohol Use",
-                                "Ambient Particulate Matter Pollution",
-                                "Diet High In Sodium",
-                                "High Fasting Plasma Glucose",
-                                "High Ldl Cholesterol",
-                                "High Systolic Blood Pressure",
-                                "Household Air Pollution From Solid Fuels",
-                                "Low Birth Weight",
-                                "Obesity",
-                                "Smoking"
-                            ]
-                        }
+                        "field": "Death_cause"
                     },
                     "value": "lightgray"
                 },
@@ -114,7 +89,12 @@
                 "y": {
                     "title": "Death Causes",
                     "field": "Death_cause",
-                    "type": "nominal"
+                    "type": "nominal",
+                    "sort": {
+                        "op": "sum",
+                        "field": "Number_of_deaths",
+                        "order": "descending"
+                    }
                 },
                 "tooltip": [
                     {
