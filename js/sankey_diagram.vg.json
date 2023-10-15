@@ -404,7 +404,7 @@
           "signal": "!groupSelector && (groupHover.stk1 == datum.stk1 || groupHover.stk2 == datum.stk2) ? 1 : 0"
         },
         "tooltip": {
-          "signal": "{\"Continent:\": datum.stk1, \"Obesity Metrics:\": datum.stk2, \"Percentage:\":format(datum.size, ',.2f')}"
+          "signal": "{\"Continent\": datum.stk1, \"Obesity Metrics\": datum.stk2, \"Percentage\":format(datum.size, ',.2f')}"
         }
       },
       "hover": {

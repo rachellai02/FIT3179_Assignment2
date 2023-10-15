@@ -65,7 +65,7 @@
         }
       },
       "tooltip": [
-        {"field": "BMI", "type": "quantitative", "title": "Average BMI (2016)"},
+        {"field": "BMI", "type": "quantitative", "title": "Average BMI (2016)", "format":".2f"},
         {"field": "Gender", "type": "nominal", "title": "Gender"}
       ]
     },
@@ -87,6 +87,8 @@
           "size": 150
         }
       }
-    ]
+    ],
+"config": {"view": {"stroke": null}, 
+"background": null}
   }
   

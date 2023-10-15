@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(255, 242, 216);
+}
+
 body * {
 	font-family: 'Open Sans', sans-serif;
   }
@@ -26,10 +30,36 @@ body * {
   
   .page {
 	width: 850px;
-	background-color: white;
 	margin: auto;
 	padding: 20px;
 	text-align: left;  /* This ensures that the internal content of .page is left-aligned */
+  }
+
+  .table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  table {
+      border-collapse: collapse;
+  }
+
+  th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    font-size: small;
+    background-color: rgb(222, 192, 154);
+  }
+
+  td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+      font-size: small;
+      background-color: whitesmoke;
   }
   
   .vis-container {
@@ -75,8 +105,8 @@ body * {
 	font-size: 14px;
   }
 
-/* Style for legend container */
-.legend {
+  /* Style for legend container */
+  .legend {
 	display: flex;
 	justify-content: center;
 	align-items: center;

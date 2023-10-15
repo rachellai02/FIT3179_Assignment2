@@ -3,7 +3,7 @@
   "title": "Share of adults with obesity of each country",
   "width": 800,
   "height": 500,
-   "projection": {"type": "equirectangular"},
+  "projection": {"type": "equirectangular"},
   "params": [
     {
       "name": "Year",
@@ -79,6 +79,7 @@
   "layer": [
     {
       "transform": [
+        {"filter": "datum.Year == Year"},
         {
           "calculate": "toNumber(datum.Percentage)",
           "as": "PercentageNumeric"
@@ -141,6 +142,7 @@
   "layer": [
     {
       "transform": [
+        {"filter": "datum.Year == Year"},
         {
           "calculate": "toNumber(datum.Percentage)",
           "as": "PercentageNumeric"
@@ -195,5 +197,9 @@
         }
       }
     }]
-  }]  
+  }],
+  "config": {
+    "view": {"stroke": null},
+    "background": null
+  }
 }
