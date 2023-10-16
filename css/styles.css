@@ -42,11 +42,11 @@ body * {
     margin-bottom: 20px;
   }
 
-  table {
+  #bmi-table {
       border-collapse: collapse;
   }
 
-  th {
+  #bmi-head {
     border: 1px solid black;
     padding: 8px;
     text-align: left;
@@ -54,7 +54,7 @@ body * {
     background-color: rgb(222, 192, 154);
   }
 
-  td {
+  #bmi-body {
       border: 1px solid black;
       padding: 8px;
       text-align: left;
