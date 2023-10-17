@@ -4,28 +4,75 @@
     "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/continent-share-of-overweight-obese-others.csv"
   },
   "transform": [
-    {"filter": "datum.Continent === 'North America'"}
+    {
+      "filter": "datum.Continent === 'North America'"
+    }
   ],
   "encoding": {
     "theta": {
       "field": "Percentage",
       "type": "quantitative",
-      "scale": {"type": "linear"},
+      "scale": {
+        "type": "linear"
+      },
       "stack": true
     },
     "color": {
       "field": "Status",
       "type": "nominal",
-      "scale": {"range": ["red", "gray", "orange"]},
+      "scale": {
+        "range": [
+          "red",
+          "gray",
+          "orange"
+        ]
+      },
       "legend": null
     },
     "tooltip": [
-      {"field": "Status", "type": "nominal", "title": "Status"},
-      {"field": "Percentage", "type": "quantitative", "title": "Percentage (%)"}
+      {
+        "field": "Status",
+        "type": "nominal",
+        "title": "Status"
+      },
+      {
+        "field": "Percentage",
+        "type": "quantitative",
+        "title": "Percentage (%)"
+      }
     ]
   },
   "layer": [
-    {"mark": {"type": "arc", "outerRadius": 100, "innerRadius": 60}},
+    {
+      "params": [
+        {
+          "name": "highlight",
+          "select": {
+            "type": "point",
+            "on": "mouseover",
+            "clear": "mouseout"
+          }
+        }
+      ],
+      "mark": {
+        "type": "arc",
+        "outerRadius": 100,
+        "innerRadius": 60,
+        "stroke": "black"
+      },
+      "encoding": {
+        "strokeOpacity": {
+          "condition": [
+            {
+              "param": "highlight",
+              "empty": false,
+              "value": 1
+            }
+          ],
+          "value": 0
+        }
+      }
+    },
     {
       "mark": {
         "type": "text",
@@ -33,8 +80,13 @@
         "font": "Verdana"
       },
       "encoding": {
-        "text": {"field": "Status", "type": "nominal"},
-        "color": {"value": "black"}
+        "text": {
+          "field": "Status",
+          "type": "nominal"
+        },
+        "color": {
+          "value": "black"
+        }
       }
     },
     {
@@ -46,13 +98,20 @@
         "font": "Verdana"
       },
       "encoding": {
-        "text": {"field": "Continent", "type": "nominal"},
-        "color": {"value": "black"}
+        "text": {
+          "field": "Continent",
+          "type": "nominal"
+        },
+        "color": {
+          "value": "black"
+        }
       }
     }
   ],
   "config": {
-    "view": {"stroke": null},
+    "view": {
+      "stroke": null
+    },
     "background": null
   }
 }

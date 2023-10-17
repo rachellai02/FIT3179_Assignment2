@@ -161,7 +161,7 @@
       "params": [
          {
           "name": "highlight",
-          "select": {"type": "point", "on": "mouseover"}
+          "select": {"type": "point", "on": "mouseover", "clear": "mouseout"}
         }
       ],
       "transform": [
