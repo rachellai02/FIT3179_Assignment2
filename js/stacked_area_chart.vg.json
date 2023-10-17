@@ -12,9 +12,13 @@
                         "param": "time_brush",
                         "title": "Death Causes",
                         "field": "Death_cause",
-                        "type": "nominal"
-                    },
-                    "value": "lightgray"
+                        "type": "nominal",
+                        "scale": {
+                            "range": ["#1f77b4", "#aec7e8","#ff7f0e", 
+                            "#ffbb78", "#ffed6f", "#756bb1", "#9e9ac8", 
+                            "#cccccc", "#d62728", "#f7b6d2"]
+                        }
+                    }
                 },
                 "x": {
                     "field": "Year",

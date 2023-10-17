@@ -18,10 +18,10 @@
       World Obesity Insights
     </h1>
 
-    <div class="description-paragraph">
-        "A paragraph of description (to be modified) <br>
-        ... <br>
-        ..."
+    <div id="title-description" class="description-paragraph">
+      This visualization offers a comprehensive examination of <b>global obesity trends and factors </b>. With a series of detailed charts, <br>
+      we present an analytical look into the <b>causes, effects, and implications </b> of this significant health concern. Explore the data to <br> 
+      enhance your awareness of this widespread health challenge, gaining insights into its profound impact on societies worldwide.
     </div>
 
     <h2>
@@ -43,7 +43,7 @@
     </div>
 
     <h2>
-      What is BMI?
+      Body Mass Index (BMI) and Obesity
     </h2>
 
     <div>
@@ -89,9 +89,10 @@
       <div id="choropleth_map" class="vis-container"></div>
     </div>
 
-    <div style="font-weight: bold; font-size: small; text-align: center; padding: 10px;">
+    <h3>
       Share of Obese and Overweight Adults by Continents
-    </div>
+    </h3>
+      
     <div class="legend pure-g section">
       <div class="legend-item">
         <span class="legend-color" style="background-color: red;"></span>
@@ -151,7 +152,7 @@
     </div>
 
     <h2>
-      Does supply of calories impact in obesity?
+      What are the drivers of obesity?
     </h2>
   
     <!-- Bubble Plot Interactive Chart Container -->
@@ -160,17 +161,15 @@
     </div>
   </div>
 
-  
+  <footer>
+    <p>This visualization is prepared by Lai Qui Juin (32638809) for FIT3179 Data Visualization 2, Semester 2 2023.</p>
+    <p>Data source is from <a href="https://ourworldindata.org/obesity">https://ourworldindata.org/obesity</a>.</p>
+  </footer>
 
   <script type="text/javascript">
     // Embed your charts here as you did before
     var spec1 = "js/stacked_area_chart.vg.json";
     vegaEmbed('#stacked_area_chart', spec1).then(function(result) {
-        // Access the Vega view instance as result.view
-    }).catch(console.error);
-
-    var spec2 = "js/ranking_line_chart.vg.json";
-    vegaEmbed('#ranking_line_chart', spec2).then(function(result) {
         // Access the Vega view instance as result.view
     }).catch(console.error);
 
