@@ -28,66 +28,98 @@
       What are the Risk Factors that Causes Highest Number of Deaths?
     </h2>
 
-    <div class="pure-g section">
-      <div class="chart-container">
-        
-        <!-- Left Half: Stacked Area Chart -->
-        <div class="chart half-width" id="stacked_area_chart"></div>
-        
-        <!-- Right Half: Ranking Line Chart and Paragraph -->
-        <div class="right-half">
-  
-    
-        </div>
+    <div class="flex-container">
+      <!-- Stacked Area and Bar Chart Container -->
+      <div class="idiom" id="stacked_area_chart"></div>
+
+      <div class="description">
+        <p>
+          <b style="font-size: x-large; color: red;">Obesity</b> ranks among the <br>
+          <b style="font-size: x-large;">Top 5 Death Cause</b> <br>
+          from 2015 to 2019. This highlights the pressing need for global attention and intervention on this significant health issue.
+        </p>
       </div>
     </div>
 
-    <h2>
+    <h2 class="text">
       Body Mass Index (BMI) and Obesity
     </h2>
 
-    <div>
+    <div class="flex-container">
+      <div class="description">
+        <div>
+          <h3>
+            How do we measure obesity?
+          </h3>
+        </div>
 
-    </div>
+        <!-- BMI Table Container -->
+        <div class="table-container">
+          <table id="bmi-table">
+            <tr>
+              <th id="bmi-head">Classification</th>
+              <th id="bmi-head">BMI</th>
+            </tr>
+            <tr>
+              <td id="bmi-body">Underweight</td>
+              <td id="bmi-body"><18.5</td>
+            </tr>
+            <tr>
+              <td id="bmi-body">Normal</td>
+              <td id="bmi-body">18.5 - 24.99</td>
+            </tr>
+            <tr>
+              <td id="bmi-body">Overweight</td>
+              <td id="bmi-body">>25</td>
+            </tr>
+            <tr>
+              <td id="bmi-body">Obese</td>
+              <td id="bmi-body">>30</td>
+            </tr>
+          </table>
+        </div>
 
-    <div class="table-container">
-      <table id="bmi-table">
-        <tr>
-          <th id="bmi-head">Classification</th>
-          <th id="bmi-head">BMI</th>
-        </tr>
-        <tr>
-          <td id="bmi-body">Underweight</td>
-          <td id="bmi-body"><18.5</td>
-        </tr>
-        <tr>
-          <td id="bmi-body">Normal</td>
-          <td id="bmi-body">18.5 - 24.99</td>
-        </tr>
-        <tr>
-          <td id="bmi-body">Overweight</td>
-          <td id="bmi-body">>25</td>
-        </tr>
-        <tr>
-          <td id="bmi-body">Overweight</td>
-          <td id="bmi-body">>30</td>
-        </tr>
-      </table>
-    </div>
-  
-    <!-- Bubble Plot Interactive Chart Container -->
-    <div class="pure-g section">
-      <div id="ranged_dot_plot" class="vis-container"></div>
-    </div>
+        <div>
+          <p style="text-align: center; font-size: small; color: rgb(96, 96, 96); line-height: normal; padding-top: 0; padding-bottom: 0;">
+            * Body Mass Index (BMI) is defined as the weight in kilograms <br>divided by the square of the height in metres (kg/m<sup style="font-size: x-small;">2</sup>) *
+          </p>
+          <p style="padding-bottom: 0;">
+            From 2000 to 2016, the BMI of all continents has been on a <b>steady rise</b>. Notably, 
+            <b style="color: #9467bd;">Oceania</b> displayed the <b>highest</b> average BMI values, while 
+            <b style="color: #1f77b4;">Africa</b> exhibited the <b>lowest</b> for both genders.
+          </p>
+          <p style="padding-top: 0;">
+            <b style="color: #e06800;">Females</b> consistently had a <b>higher</b> average BMI than 
+            <b style="color: #094068;">males</b> across most continents as 
+            <b style="color: #e06800;">females</b> naturally have a higher body fat percentage than 
+            <b style="color: #094068;">males</b> due to hormones and reproductive functions.
+          </p>
+        </div>
+      </div>
+
+      <!-- Ranged Dot Plot Container -->
+      <div class="idiom">
+        <div id="ranged_dot_plot" class="vis-container"></div>
+      </div>
+    </div>  
     
     <h2>
       How Many People in the World has Obesity?
     </h2>
 
     <!-- Choropleth Map Chart Container -->
-    <div class="pure-g section">
-      <div id="choropleth_map" class="vis-container"></div>
+    <div id="choropleth_map" class="vis-container"></div>
+
+    <div class="flex-container">
+      
+
+      <div class="idiom">
+
+      </div>
+
     </div>
+
+    
 
     <h3>
       Share of Obese and Overweight Adults by Continents

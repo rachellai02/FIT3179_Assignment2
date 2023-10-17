@@ -38,11 +38,13 @@
                     {
                         "field": "Number_of_deaths",
                         "type": "quantitative",
-                        "format": ",d"
+                        "format": ",d",
+                        "title": "Number of Deaths"
                     },
                     {
                         "field": "Death_cause",
-                        "type": "nominal"
+                        "type": "nominal",
+                        "title": "Cause of Death"
                     },
                     {
                         "field": "Year",
@@ -51,7 +53,7 @@
                     }
                 ]
             },
-            "width": 400,
+            "width": 350,
             "height": 250,
             "mark": "area",
             "params": [
@@ -79,7 +81,8 @@
                         "field": "Death_cause",
                         "legend": {
                           "orient": "bottom",
-                          "columns": 5
+                          "columns": 5,
+                          "labelLimit": 700
                         }
                     },
                     "value": "lightgray"
@@ -103,11 +106,13 @@
                     {
                         "field": "Number_of_deaths",
                         "type": "quantitative",
-                        "format": ",d"
+                        "format": ",d",
+                        "title": "Number of Deaths"
                     },
                     {
                         "field": "Death_cause",
-                        "type": "nominal"
+                        "type": "nominal",
+                        "title": "Cause of Death"
                     },
                     {
                         "field": "Year",

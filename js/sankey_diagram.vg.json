@@ -306,7 +306,7 @@
   {
     "name": "color",
     "type": "ordinal",
-    "range":["#FDE26C", "#1f77b4","#FF964F", "#C23B22", "#9467bd", "#e377c2", 
+    "range":["#1f77b4", "#FDE26C", "#FF964F", "#C23B22", "#9467bd", "#e377c2", 
     "red", "orange","yellow", "#777777"
     ],
     "domain": ["Africa", "Asia", "Europe", "North America", "Oceania", "South America", "Adults Obese", "Adults Overweight", "Children Overweight", "Death Rate (Obese)"]

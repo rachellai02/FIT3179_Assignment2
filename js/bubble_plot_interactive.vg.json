@@ -123,7 +123,7 @@
           "type": "nominal",
           "scale": {
             "domain": ["Africa", "Asia", "Europe", "North America", "Oceania", "South America", "World"],
-            "range": ["#FDE26C", "#1f77b4","#FF964F", "#C23B22", "#9467bd", "#e377c2", "#7f7f7f"]
+            "range": ["#1f77b4", "#FDE26C", "#FF964F", "#C23B22", "#9467bd", "#e377c2", "#7f7f7f"]
           }
         },
         "opacity": {"value": 0.7},

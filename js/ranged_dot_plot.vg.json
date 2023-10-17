@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 500,
     "height": 300,
-    "title": "Average BMI values by gender for various continents",
+    "title": "Average BMI values of male and female for each continents",
     "params": [
       {
         "name": "Year",
@@ -61,7 +61,7 @@
         "title": "Gender",
         "scale": {
           "domain": ["Male", "Female"],
-          "range": ["#1f77b4", "#ff7f0e"]
+          "range": ["#094068", "#e06800"]
         }
       },
       "tooltip": [
