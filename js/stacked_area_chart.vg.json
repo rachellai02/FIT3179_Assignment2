@@ -1,194 +1,188 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "hconcat": [
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "hconcat": [
+    {
+      "width": 350,
+      "height": 250,
+      "title": "Total Number of Deaths by Top 10 Death Causes in 2015-2019",
+      "data": {
+        "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/top10-number-of-deaths-by-risk-factor(cleaned).csv"
+      },
+      "params": [
         {
-            "width": 350,
-            "height": 250,
-            "title": "Total Number of Deaths by Top 10 Death Causes in 2015-2019",
-            "data": {
-                "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/top10-number-of-deaths-by-risk-factor(cleaned).csv"
-            },
-            "params": [
-                {
-                    "name": "time_brush",
-                    "select": {
-                        "type": "interval",
-                        "encodings": [
-                            "x"
-                        ]
-                    }
-                },
-                {
-                    "name": "Death_cause_highlight",
-                    "select": {
-                        "type": "point",
-                        "fields": [
-                            "Death_cause"
-                        ],
-                        "on": "mouseover",
-                        "clear": "mouseout"
-                    },
-                    "bind": "legend"
-                }
-            ],
-            "mark": "area",
-            "encoding": {
-                "color": {
-                    "condition": {
-                        "param": "Death_cause_highlight",
-                        "title": "Death Causes",
-                        "field": "Death_cause",
-                        "type": "nominal",
-                        "scale": {
-                            "range": [
-                                "#1f77b4",
-                                "#aec7e8",
-                                "#ff7f0e",
-                                "#ffbb78",
-                                "#ffed6f",
-                                "#756bb1",
-                                "#9e9ac8",
-                                "#cccccc",
-                                "#d62728",
-                                "#f7b6d2"
-                            ]
-                        }
-                    },
-                    "value": "lightgrey"
-                },
-                "opacity": {
-                    "condition": {
-                        "param": "Death_cause_highlight",
-                        "value": 1
-                    },
-                    "value": 0.8
-                },
-                "x": {
-                    "field": "Year",
-                    "timeUnit": "yearmonth",
-                    "title": "Year",
-                    "axis": {
-                        "format": "%Y"
-                    }
-                },
-                "y": {
-                    "title": "Number of Deaths",
-                    "aggregate": "sum",
-                    "field": "Number_of_deaths",
-                    "type": "quantitative"
-                },
-                "tooltip": [
-                    {
-                        "field": "Number_of_deaths",
-                        "type": "quantitative",
-                        "format": ",d",
-                        "title": "Number of Deaths"
-                    },
-                    {
-                        "field": "Death_cause",
-                        "type": "nominal",
-                        "title": "Cause of Death"
-                    },
-                    {
-                        "field": "Year",
-                        "timeUnit": "year",
-                        "title": "Year"
-                    }
-                ]
-            }
+          "name": "time_brush",
+          "select": {
+            "type": "interval",
+            "encodings": ["x"]
+          }
         },
         {
-            "width": 300,
-            "height": 250,
-            "title": [
-                "Total Number of Deaths by Top 10 Death Causes by Year",
-                "(Brush over the stacked area chart on the left to select year range)"
-            ],
-            "mark": "bar",
-            "params": [
-                {
-                    "name": "Death_cause_highlight",
-                    "select": {
-                        "type": "point",
-                        "fields": [
-                            "Death_cause"
-                        ],
-                        "on": "mouseover",
-                        "clear": "mouseout"
-                    },
-                    "bind": "legend"
-                }
-            ],
-            "transform": [
-                {
-                    "filter": {
-                        "param": "time_brush"
-                    }
-                }
-            ],
-            "data": {
-                "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/top10-number-of-deaths-by-risk-factor(cleaned).csv"
-            },
-            "encoding": {
-                "color": {
-                    "condition": {
-                        "param": "Death_cause_highlight",
-                        "field": "Death_cause",
-                        "legend": {
-                            "orient": "bottom",
-                            "columns": 5,
-                            "labelLimit": 700
-                        }
-                    },
-                    "value": "lightgray"
-                },
-                "opacity": {
-                    "condition": {
-                        "param": "Death_cause_highlight",
-                        "value": 1
-                    },
-                    "value": 0.6
-                },
-                "x": {
-                    "field": "Number_of_deaths",
-                    "type": "quantitative",
-                    "title": "Number of Deaths"
-                },
-                "y": {
-                    "title": "Death Causes",
-                    "field": "Death_cause",
-                    "type": "nominal",
-                    "sort": {
-                        "op": "sum",
-                        "field": "Number_of_deaths",
-                        "order": "descending"
-                    }
-                },
-                "tooltip": [
-                    {
-                        "field": "Number_of_deaths",
-                        "type": "quantitative",
-                        "format": ",d",
-                        "title": "Number of Deaths"
-                    },
-                    {
-                        "field": "Death_cause",
-                        "type": "nominal",
-                        "title": "Cause of Death"
-                    },
-                    {
-                        "field": "Year",
-                        "timeUnit": "year",
-                        "title": "Year"
-                    }
-                ]
-            }
+          "name": "Death_cause_highlight",
+          "select": {
+            "type": "point",
+            "fields": ["Death_cause"],
+            "on": "mouseover",
+            "clear": "mouseout"
+          },
+          "bind": "legend"
         }
-    ],
-    "config": {
-        "view": {
-            "stroke": null
+      ],
+      "mark": "area",
+      "encoding": {
+        "color": {
+          "condition": {
+            "param": "Death_cause_highlight",
+            "title": "Death Causes",
+            "field": "Death_cause",
+            "type": "nominal",
+            "scale": {
+              "range": [
+                "#1f77b4",
+                "#aec7e8",
+                "#ff7f0e",
+                "#ffbb78",
+                "#ffed6f",
+                "#756bb1",
+                "#9e9ac8",
+                "#cccccc",
+                "#d62728",
+                "#f7b6d2"
+              ]
+            }
+          },
+          "value": "lightgrey"
         },
-        "background": null
+        "opacity": {
+          "condition": {
+            "param": "Death_cause_highlight",
+            "value": 1
+          },
+          "value": 0.8
+        },
+        "x": {
+          "field": "Year",
+          "timeUnit": "yearmonth",
+          "title": "Year",
+          "axis": {
+            "format": "%Y"
+          }
+        },
+        "y": {
+          "title": "Number of Deaths",
+          "aggregate": "sum",
+          "field": "Number_of_deaths",
+          "type": "quantitative"
+        },
+        "tooltip": [
+          {
+            "field": "Number_of_deaths",
+            "type": "quantitative",
+            "format": ",d",
+            "title": "Number of Deaths"
+          },
+          {
+            "field": "Death_cause",
+            "type": "nominal",
+            "title": "Cause of Death"
+          },
+          {
+            "field": "Year",
+            "timeUnit": "year",
+            "title": "Year"
+          }
+        ]
+      }
+    },
+    {
+      "width": 300,
+      "height": 250,
+      "title": [
+        "Total Number of Deaths by Top 10 Death Causes by Year",
+        "(Brush over the stacked area chart on the left to select year range)"
+      ],
+      "mark": "bar",
+      "params": [
+        {
+          "name": "Death_cause_highlight",
+          "select": {
+            "type": "point",
+            "fields": ["Death_cause"],
+            "on": "mouseover",
+            "clear": "mouseout"
+          },
+          "bind": "legend"
+        }
+      ],
+      "transform": [
+        {
+          "filter": {
+            "param": "time_brush"
+          }
+        }
+      ],
+      "data": {
+        "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/top10-number-of-deaths-by-risk-factor(cleaned).csv"
+      },
+      "encoding": {
+        "color": {
+          "condition": {
+            "param": "Death_cause_highlight",
+            "field": "Death_cause",
+            "legend": {
+              "orient": "bottom",
+              "columns": 5,
+              "labelLimit": 700
+            }
+          },
+          "value": "lightgray"
+        },
+        "opacity": {
+          "condition": {
+            "param": "Death_cause_highlight",
+            "value": 1
+          },
+          "value": 0.6
+        },
+        "x": {
+          "field": "Number_of_deaths",
+          "type": "quantitative",
+          "title": "Number of Deaths"
+        },
+        "y": {
+          "title": "Death Causes",
+          "field": "Death_cause",
+          "type": "nominal",
+          "sort": {
+            "op": "sum",
+            "field": "Number_of_deaths",
+            "order": "descending"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "Number_of_deaths",
+            "type": "quantitative",
+            "format": ",d",
+            "title": "Number of Deaths"
+          },
+          {
+            "field": "Death_cause",
+            "type": "nominal",
+            "title": "Cause of Death"
+          },
+          {
+            "field": "Year",
+            "timeUnit": "year",
+            "title": "Year"
+          }
+        ]
+      }
     }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "background": null
+  }
 }

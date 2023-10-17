@@ -3,19 +3,29 @@
   "title": "Share of adults with obesity of each country",
   "width": 1000,
   "height": 500,
-  "projection": {"type": "equirectangular"},
+  "projection": {
+    "type": "equirectangular"
+  },
   "params": [
     {
       "name": "Year",
       "value": 2014,
-      "bind": {"input": "range", "min": 2010, "max": 2014, "step": 1}
+      "bind": {
+        "input": "range",
+        "min": 2010,
+        "max": 2014,
+        "step": 1
       }
+    }
   ],
   "layer": [
     {
       "data": {
         "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/js/ne_110m_admin_0_countries.topojson",
-        "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+        "format": {
+          "type": "topojson",
+          "feature": "ne_110m_admin_0_countries"
+        }
       },
       "transform": [
         {
@@ -27,197 +37,244 @@
         "type": "geoshape",
         "fill": "lightgray"
       },
-      "encoding": {"tooltip": {"field": "note"}}
-    },
-      {
-  "data": {
-    "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/continent-share-of-adults-defined-as-obese.csv"
-  },
-  "layer": [
-    {
-      "transform": [
-        {"filter": "datum.Year == Year"},
-        {
-          "calculate": "toNumber(datum.Percentage)",
-          "as": "PercentageNumeric"
-        },
-        {
-          "window": [
-            {
-              "op": "rank",
-              "as": "ranking"
-            }
-          ],
-          "sort": [
-            {
-              "field": "PercentageNumeric",
-              "order": "descending"
-            }
-          ]
-        },
-        {
-          "filter": "datum.ranking == 1"
-        },
-        {
-          "calculate": "datum['Country'] + ' (' + datum['PercentageNumeric'] + '%)'",
-          "as": "text_annotation"
-        }
-      ],
-      "mark": {
-        "type": "text",
-        "align": "left",
-        "dx": -510,
-        "dy": -115,
-        "fill": "black"
-      },
       "encoding": {
-        "text": {
-          "field": "text_annotation",
-          "type": "nominal"
-        }
-      }
-    },
-    {
-      "mark": {
-        "type": "text",
-        "align": "left",
-        "dx": -510,
-        "dy": -130,
-        "fill": "black"
-      },
-      "encoding": {
-        "text": {
-          "value": "Highest Share of Obese Adults:"
-        }
-      }
-    }]
-  },
-  {
-  "data": {
-    "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/continent-share-of-adults-defined-as-obese.csv"
-  },
-  "layer": [
-    {
-      "transform": [
-        {"filter": "datum.Year == Year"},
-        {
-          "calculate": "toNumber(datum.Percentage)",
-          "as": "PercentageNumeric"
-        },
-        {
-          "window": [
-            {
-              "op": "rank",
-              "as": "ranking"
-            }
-          ],
-          "sort": [
-            {
-              "field": "PercentageNumeric",
-              "order": "ascending"
-            }
-          ]
-        },
-        {
-          "filter": "datum.ranking == 1"
-        },
-        {
-          "calculate": "datum['Country'] + ' (' + datum['PercentageNumeric'] + '%)'",
-          "as": "text_annotation"
-        }
-      ],
-      "mark": {
-        "type": "text",
-        "align": "left",
-        "dx": 355,
-        "dy": -35,
-        "fill": "black"
-      },
-      "encoding": {
-        "text": {
-          "field": "text_annotation",
-          "type": "nominal"
-        }
-      }
-    },
-    {
-      "mark": {
-        "type": "text",
-        "align": "left",
-        "dx": 355,
-        "dy": -50,
-        "fill": "black"
-      },
-      "encoding": {
-        "text": {
-          "value": "Lowest Share of Obese Adults:"
+        "tooltip": {
+          "field": "note"
         }
       }
     },
     {
       "data": {
-      "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/continent-share-of-adults-defined-as-obese.csv"
+        "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/continent-share-of-adults-defined-as-obese.csv"
       },
-      "params": [
-         {
-          "name": "highlight",
-          "select": {"type": "point", "on": "mouseover", "clear": "mouseout"}
-        }
-      ],
-      "transform": [
+      "layer": [
         {
-          "lookup": "Country",
-          "from": {
-            "data": {
-              "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/js/ne_110m_admin_0_countries.topojson",
-                "format": {
-                "type": "topojson",
-                "feature": "ne_110m_admin_0_countries"
-              }
-            },
-            "key": "properties.NAME"
-          },
-          "as" : "geo"
-        },
-        {"filter": "datum.Year == Year"}
-      ],
-      "mark": {
-        "type": "geoshape",
-        "stroke": "black"
-      },
-      "encoding": {
-        "shape": {"field": "geo", "type": "geojson"},
-        "color": {
-          "field": "Percentage",
-          "type": "quantitative",
-          "scale": {
-            "type": "threshold",
-            "domain": [5, 10, 15, 20, 25, 30, 35],
-            "range": ["#ffff00", "#ffcc00", "#ffaa00", "#ff8800", "#ff6600", "#ff4400", "#cc0000", "#990000"]
-          },
-          "legend": {
-            "title": "Percentage (%)"
-          }
-        },
-        "tooltip": [
-          {"field": "Country", "type": "nominal", "title": "Country"},
-          {"field": "Percentage", "type": "quantitative", "title": "Percentage (%)"}
-        ],
-        "strokeOpacity":{
-          "condition": [
+          "transform": [
             {
-              "param": "highlight",
-              "empty": false,
-              "value": 1
+              "filter": "datum.Year == Year"
+            },
+            {
+              "calculate": "toNumber(datum.Percentage)",
+              "as": "PercentageNumeric"
+            },
+            {
+              "window": [
+                {
+                  "op": "rank",
+                  "as": "ranking"
+                }
+              ],
+              "sort": [
+                {
+                  "field": "PercentageNumeric",
+                  "order": "descending"
+                }
+              ]
+            },
+            {
+              "filter": "datum.ranking == 1"
+            },
+            {
+              "calculate": "datum['Country'] + ' (' + datum['PercentageNumeric'] + '%)'",
+              "as": "text_annotation"
             }
           ],
-          "value": 0.3
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "dx": -510,
+            "dy": -115,
+            "fill": "black"
+          },
+          "encoding": {
+            "text": {
+              "field": "text_annotation",
+              "type": "nominal"
+            }
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "dx": -510,
+            "dy": -130,
+            "fill": "black"
+          },
+          "encoding": {
+            "text": {
+              "value": "Highest Share of Obese Adults:"
+            }
+          }
         }
-      }}
-    ]
-  }],
+      ]
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/continent-share-of-adults-defined-as-obese.csv"
+      },
+      "layer": [
+        {
+          "transform": [
+            {
+              "filter": "datum.Year == Year"
+            },
+            {
+              "calculate": "toNumber(datum.Percentage)",
+              "as": "PercentageNumeric"
+            },
+            {
+              "window": [
+                {
+                  "op": "rank",
+                  "as": "ranking"
+                }
+              ],
+              "sort": [
+                {
+                  "field": "PercentageNumeric",
+                  "order": "ascending"
+                }
+              ]
+            },
+            {
+              "filter": "datum.ranking == 1"
+            },
+            {
+              "calculate": "datum['Country'] + ' (' + datum['PercentageNumeric'] + '%)'",
+              "as": "text_annotation"
+            }
+          ],
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "dx": 355,
+            "dy": -35,
+            "fill": "black"
+          },
+          "encoding": {
+            "text": {
+              "field": "text_annotation",
+              "type": "nominal"
+            }
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "dx": 355,
+            "dy": -50,
+            "fill": "black"
+          },
+          "encoding": {
+            "text": {
+              "value": "Lowest Share of Obese Adults:"
+            }
+          }
+        },
+        {
+          "data": {
+            "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/data/continent-share-of-adults-defined-as-obese.csv"
+          },
+          "params": [
+            {
+              "name": "highlight",
+              "select": {
+                "type": "point",
+                "on": "mouseover",
+                "clear": "mouseout"
+              }
+            }
+          ],
+          "transform": [
+            {
+              "lookup": "Country",
+              "from": {
+                "data": {
+                  "url": "https://raw.githubusercontent.com/rachellai02/FIT3179_Assignment2/master/js/ne_110m_admin_0_countries.topojson",
+                  "format": {
+                    "type": "topojson",
+                    "feature": "ne_110m_admin_0_countries"
+                  }
+                },
+                "key": "properties.NAME"
+              },
+              "as": "geo"
+            },
+            {
+              "filter": "datum.Year == Year"
+            }
+          ],
+          "mark": {
+            "type": "geoshape",
+            "stroke": "black"
+          },
+          "encoding": {
+            "shape": {
+              "field": "geo",
+              "type": "geojson"
+            },
+            "color": {
+              "field": "Percentage",
+              "type": "quantitative",
+              "scale": {
+                "type": "threshold",
+                "domain": [
+                  5,
+                  10,
+                  15,
+                  20,
+                  25,
+                  30,
+                  35
+                ],
+                "range": [
+                  "#ffff00",
+                  "#ffcc00",
+                  "#ffaa00",
+                  "#ff8800",
+                  "#ff6600",
+                  "#ff4400",
+                  "#cc0000",
+                  "#990000"
+                ]
+              },
+              "legend": {
+                "title": "Percentage (%)"
+              }
+            },
+            "tooltip": [
+              {
+                "field": "Country",
+                "type": "nominal",
+                "title": "Country"
+              },
+              {
+                "field": "Percentage",
+                "type": "quantitative",
+                "title": "Percentage (%)"
+              }
+            ],
+            "strokeOpacity": {
+              "condition": [
+                {
+                  "param": "highlight",
+                  "empty": false,
+                  "value": 1
+                }
+              ],
+              "value": 0.3
+            }
+          }
+        }
+      ]
+    }
+  ],
   "config": {
-    "view": {"stroke": null},
+    "view": {
+      "stroke": null
+    },
     "background": null
   }
 }

@@ -71,16 +71,23 @@
       "field": "Daily caloric supply",
       "type": "quantitative",
       "title": "Daily Caloric Supply (kcal)",
-      "axis": {"tickCount": 7},
+      "axis": {
+        "tickCount": 7
+      },
       "scale": {
-        "domain": ["1500","4000"]
+        "domain": [
+          "1500",
+          "4000"
+        ]
       }
     },
     "y": {
       "field": "Obese",
       "type": "quantitative",
       "title": "Share of obese adult men (%)",
-      "axis": {"tickCount": 6}
+      "axis": {
+        "tickCount": 6
+      }
     }
   },
   "layer": [
@@ -95,9 +102,11 @@
           "name": "continent_highlight",
           "select": {
             "type": "point",
-            "fields": ["Continent"]
+            "fields": [
+              "Continent"
+            ]
           },
-          "bind":"legend"
+          "bind": "legend"
         },
         {
           "name": "highlight",
@@ -111,7 +120,7 @@
       "mark": {
         "type": "circle",
         "stroke": "black",
-        "strokeWidth":1
+        "strokeWidth": 1
       },
       "encoding": {
         "size": {
@@ -119,18 +128,53 @@
           "type": "quantitative",
           "scale": {
             "type": "threshold",
-            "domain": [1000000, 10000000, 50000000, 100000000, 500000000, 1000000000, 5000000000],
-            "range": [50, 150, 300, 500, 750, 1100, 1500, 2000]
+            "domain": [
+              1000000,
+              10000000,
+              50000000,
+              100000000,
+              500000000,
+              1000000000,
+              5000000000
+            ],
+            "range": [
+              50,
+              150,
+              300,
+              500,
+              750,
+              1100,
+              1500,
+              2000
+            ]
           },
-          "legend": {"format": ".1s"},
+          "legend": {
+            "format": ".1s"
+          },
           "title": "Population"
         },
         "color": {
           "field": "Continent",
-          "type":"nominal",
+          "type": "nominal",
           "scale": {
-            "domain": ["Africa", "Asia", "Europe", "North America", "Oceania", "South America", "World"],
-            "range": ["#1f77b4", "#FDE26C", "#FF964F", "#C23B22", "#9467bd", "#e377c2", "#7f7f7f"]
+            "domain": [
+              "Africa",
+              "Asia",
+              "Europe",
+              "North America",
+              "Oceania",
+              "South America",
+              "World"
+            ],
+            "range": [
+              "#1f77b4",
+              "#FDE26C",
+              "#FF964F",
+              "#C23B22",
+              "#9467bd",
+              "#e377c2",
+              "#7f7f7f"
+            ]
           },
           "title": "Continent"
         },
@@ -190,8 +234,13 @@
         "fontStyle": "italic"
       },
       "encoding": {
-        "text": {"field": "Entity", "type": "nominal"},
-        "color": {"value": "black"},
+        "text": {
+          "field": "Entity",
+          "type": "nominal"
+        },
+        "color": {
+          "value": "black"
+        },
         "opacity": {
           "condition": {
             "test": "datum['Population'] > 100000000",
@@ -203,7 +252,9 @@
     }
   ],
   "config": {
-    "view": {"stroke": null},
+    "view": {
+      "stroke": null
+    },
     "background": null
   }
 }

@@ -151,17 +151,17 @@
         </div>
     
         <div class="donut-flex-container">
-          <!-- First Donut Chart -->
+          <!-- Fourth Donut Chart -->
           <div class="donut-column">
             <div id="donut_oceania" class="donut"></div>
           </div>
           
-          <!-- Second Donut Chart -->
+          <!-- Fifth Donut Chart -->
           <div class="donut-column">
             <div id="donut_north_america" class="donut"></div>
           </div>
     
-          <!-- Third Donut Chart -->
+          <!-- Sixth Donut Chart -->
           <div class="donut-column">
             <div id="donut_south_america" class="donut"></div>
           </div>
@@ -245,6 +245,11 @@
         // Access the Vega view instance as result.view
     }).catch(console.error);
 
+    var spec2 = "js/ranged_dot_plot.vg.json";
+    vegaEmbed('#ranged_dot_plot', spec2).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
     var spec3 = "js/choropleth_map.vg.json";
     vegaEmbed('#choropleth_map', spec3).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
@@ -265,13 +270,13 @@
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
-    var spec7 = "js/donut_oceania.vg.json";
-    vegaEmbed('#donut_oceania', spec7).then(function(result) {
+    var spec7 = "js/donut_north_america.vg.json";
+    vegaEmbed('#donut_north_america', spec7).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
-    var spec8 = "js/donut_north_america.vg.json";
-    vegaEmbed('#donut_north_america', spec8).then(function(result) {
+    var spec8 = "js/donut_oceania.vg.json";
+    vegaEmbed('#donut_oceania', spec8).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
@@ -280,20 +285,16 @@
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
-    var spec10 = "js/bubble_plot_interactive.vg.json";
-    vegaEmbed('#bubble_plot_interactive', spec10).then(function(result) {
+    var spec10 = "js/sankey_diagram.vg.json";
+    vegaEmbed('#sankey_diagram', spec10).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
-    var spec11 = "js/sankey_diagram.vg.json";
-    vegaEmbed('#sankey_diagram', spec11).then(function(result) {
+    var spec11 = "js/bubble_plot_interactive.vg.json";
+    vegaEmbed('#bubble_plot_interactive', spec11).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
-    var spec12 = "js/ranged_dot_plot.vg.json";
-    vegaEmbed('#ranged_dot_plot', spec12).then(function(result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);
   </script>
 
 </body>
