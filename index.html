@@ -81,7 +81,7 @@
 
         <div>
           <p style="text-align: center; font-size: small; color: rgb(96, 96, 96); line-height: normal; padding-top: 0; padding-bottom: 0;">
-            * Body Mass Index (BMI) is defined as the weight in kilograms <br>divided by the square of the height in metres (kg/m<sup style="font-size: x-small;">2</sup>) *
+            * Body Mass Index (BMI) is defined as the weight in kilograms <br>divided by the square of the height in metres (kg/m<sup style="font-size: x-small;">2</sup>)
           </p>
           <p style="padding-bottom: 0;">
             From 2000 to 2016, the BMI of all continents has been on a <b>steady rise</b>. Notably, 
@@ -100,6 +100,7 @@
       <!-- Ranged Dot Plot Container -->
       <div class="idiom">
         <div id="ranged_dot_plot" class="vis-container"></div>
+        <p style="font-size: small; color: red; text-align: center;">* Note: Average BMI starts from 20 for better visualisation purposes.</p>
       </div>
     </div>  
     
@@ -111,86 +112,129 @@
     <div id="choropleth_map" class="vis-container"></div>
 
     <div class="flex-container">
-      
 
       <div class="idiom">
+        <h3>
+          Share of Obese and Overweight Adults by Continents
+        </h3>
+          
+        <div class="legend">
+          <div class="legend-item">
+            <span class="legend-color" style="background-color: red;"></span>
+            <span class="legend-text" style="color: red;">Obese</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-color" style="background-color: orange;"></span>
+            <span class="legend-text" style="color: orange;">Overweight</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-color" style="background-color: gray;"></span>
+            <span class="legend-text" style="color: gray;">Others</span>
+          </div>
+        </div>   
+    
+        <div class="donut-flex-container">
+          <!-- First Donut Chart -->
+          <div class="donut-column">
+            <div id="donut_africa" class="donut"></div>
+          </div>
+          
+          <!-- Second Donut Chart -->
+          <div class="donut-column">
+            <div id="donut_asia" class="donut"></div>
+          </div>
+    
+          <!-- Third Donut Chart -->
+          <div class="donut-column">
+            <div id="donut_europe" class="donut"></div>
+          </div>
+        </div>
+    
+        <div class="donut-flex-container">
+          <!-- First Donut Chart -->
+          <div class="donut-column">
+            <div id="donut_oceania" class="donut"></div>
+          </div>
+          
+          <!-- Second Donut Chart -->
+          <div class="donut-column">
+            <div id="donut_north_america" class="donut"></div>
+          </div>
+    
+          <!-- Third Donut Chart -->
+          <div class="donut-column">
+            <div id="donut_south_america" class="donut"></div>
+          </div>
+        </div>
+      </div>
 
+      <div class="description">
+        <p style="font-size: small; color: rgb(96, 96, 96);">
+          * Note: Some countries especially countries in Oceania are not visible in the map.
+        </p>
+        <p>
+          According to the map, <b style="color: red;">share of adults with obesity</b> in most countries has been <b>consistently rising</b> throughout the year 2010 to 2014.
+        </p>
+        <p>
+          The donut chart shows that among all continents, 
+          <b style="color: #9467bd;">Oceania</b> has the highest share of adults suffering from 
+          <b style="color: red;">Obesity</b> and <b style="color: orange;">Overweight</b>, following by 
+          <b style="color: #FF964F;">Europe</b>, <b style="color: #e377c2;">South America</b>, and <b style="color: #C23B22;">North America</b>.
+        </p>
+        <p>
+          <b>Dietary habits</b> driven by increased consumption of processed foods and Western-style diets, combined with urbanization leading to more <b>sedentary lifestyles</b>, might be the primary contributors to higher obesity rates in these continents.
+        </p>
       </div>
 
     </div>
 
     
 
-    <h3>
-      Share of Obese and Overweight Adults by Continents
-    </h3>
-      
-    <div class="legend pure-g section">
-      <div class="legend-item">
-        <span class="legend-color" style="background-color: red;"></span>
-        <span class="legend-text" style="color: red;">Obese</span>
-      </div>
-      <div class="legend-item">
-        <span class="legend-color" style="background-color: orange;"></span>
-        <span class="legend-text" style="color: orange;">Overweight</span>
-      </div>
-      <div class="legend-item">
-        <span class="legend-color" style="background-color: gray;"></span>
-        <span class="legend-text" style="color: gray;">Others</span>
-      </div>
-    </div>   
-
-    <div class="pure-g section">
-      <!-- First Donut Chart -->
-      <div class="donut-column">
-        <div id="donut_africa" class="donut"></div>
-      </div>
-      
-      <!-- Second Donut Chart -->
-      <div class="donut-column">
-        <div id="donut_asia" class="donut"></div>
-      </div>
-
-      <!-- Third Donut Chart -->
-      <div class="donut-column">
-        <div id="donut_europe" class="donut"></div>
-      </div>
-    </div>
-
-    <div class="pure-g section">
-      <!-- First Donut Chart -->
-      <div class="donut-column">
-        <div id="donut_oceania" class="donut"></div>
-      </div>
-      
-      <!-- Second Donut Chart -->
-      <div class="donut-column">
-        <div id="donut_north_america" class="donut"></div>
-      </div>
-
-      <!-- Third Donut Chart -->
-      <div class="donut-column">
-        <div id="donut_south_america" class="donut"></div>
-      </div>
-    </div>
+    
 
     <h2>
       How Much Population Were Affected by Overweight or Obese?
     </h2>
 
-    <!-- Parallel Coordinate Plot Container -->
-    <div class="pure-g section">
-      <div id="sankey_diagram" class="vis-container"></div>
+    <div class="flex-container">
+      <div class="description">
+        <p>
+          <b style="color: #9467bd;">Oceania</b> has a significant contribution to the population affected by <b>overweight and obese</b>, making up <b style="color: #9467bd;">22%</b> of the total.
+        </p>
+        <p>
+          The <b style="color: #777777;">17%</b> contribution to the <b style="color: #777777;">death rate due to obesity</b>, as depicted in the alluvial diagram, underscores the severe health implications of obesity. This alarming statistic highlights the pressing need for heightened awareness and intervention measures.
+        </p>
+      </div>
+
+      <!-- Alluvial Diagram Container -->
+      <div class="idiom">
+        <div id="sankey_diagram" class="vis-container"></div>
+      </div>
     </div>
+
+    
 
     <h2>
       What are the drivers of obesity?
     </h2>
-  
-    <!-- Bubble Plot Interactive Chart Container -->
-    <div class="pure-g section">
-      <div id="bubble_plot_interactive" class="vis-container"></div>
+
+    <div class="flex-container">
+      <!-- Bubble Plot Interactive Chart Container -->
+      <div class="idiom">
+        <div id="bubble_plot_interactive" class="vis-container"></div>
+      </div>
+
+      <div class="description">
+        <p>
+          Countries with <b>higher daily caloric supplies</b> tend to have a <b style="color: red;">greater share of adult men with obesity</b>. 
+        </p>
+        <p>
+          Increased daily caloric intake, without corresponding physical activity, can lead to an <b>energy imbalance</b>, resulting in weight gain and potentially obesity.
+        </p>
+      </div>
     </div>
+  
+    
   </div>
 
   <footer>

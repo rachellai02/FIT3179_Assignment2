@@ -8,27 +8,27 @@
       "values" : [{
         "Continent" : "Africa",
         "Obesity_Metrics" : "Adults Overweight",
-        "Count" : 32.89
+        "Count" : 22.67
       },{
         "Continent" : "Asia",
         "Obesity_Metrics" : "Adults Overweight",
-        "Count" : 43.92
+        "Count" : 28.52
       }, {
         "Continent" : "Europe",
         "Obesity_Metrics" : "Adults Overweight",
-        "Count" : 58.11
+        "Count" : 33.76
       },{
         "Continent" : "North America",
         "Obesity_Metrics" : "Adults Overweight",
-        "Count" : 56.29
+        "Count" : 32.46
       }, {
         "Continent" : "South America",
         "Obesity_Metrics" : "Adults Overweight",
-        "Count" : 57.7
+        "Count" : 35.1
       },{
         "Continent" : "Oceania",
         "Obesity_Metrics" : "Adults Overweight",
-        "Count" : 72.68
+        "Count" : 32.23
       },
       {
         "Continent" : "Africa",
@@ -404,7 +404,7 @@
           "signal": "!groupSelector && (groupHover.stk1 == datum.stk1 || groupHover.stk2 == datum.stk2) ? 1 : 0"
         },
         "tooltip": {
-          "signal": "{\"Continent\": datum.stk1, \"Obesity Metrics\": datum.stk2, \"Percentage\":format(datum.size, ',.2f')}"
+          "signal": "{\"Continent\": datum.stk1, \"Obesity Metrics\": datum.stk2, \"Percentage (%)\":format(datum.size, ',.2f')}"
         }
       },
       "hover": {
@@ -641,5 +641,3 @@
 "config": {"view": {"stroke": null}, 
 "background": null}
 }
-
-

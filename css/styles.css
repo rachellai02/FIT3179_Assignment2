@@ -89,6 +89,18 @@ h3 {
   flex-wrap: wrap; /* Allows for wrapping if necessary */
 }
 
+.donut-flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+  padding: 20px;
+  margin-left: 50px;
+}
+
+.donut-column {
+  margin: 10px;
+}
+
 .idiom {
   flex: 1;
   padding: 15px;
@@ -156,12 +168,5 @@ h3 {
   font-size: 14px; /* Adjust the font size */
   font-weight: bold; /* Optional: Adjust the font weight */
   font-family: Arial, Helvetica, sans-serif;
-}
-
-#bubble_plot_interactive {
-  justify-content: left; /* Center aligns flex items on the main axis */
-  display: flex; /* Ensures it's a flex container */
-  flex-wrap: wrap; /* Allows for wrapping if necessary */
-  padding-right: 100px;
 }
 
